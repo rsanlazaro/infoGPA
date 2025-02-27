@@ -1,5 +1,5 @@
 var wdjsmapconfig = {
-  "default":{
+  "default": {
     "borderColor": "#6B8B9E",// Borders Color
     "showNames": true, // true/false to Show/Hide the names
     "namesColor": "#666666",// Default Names Color
@@ -7,986 +7,986 @@ var wdjsmapconfig = {
     "showCallouts": true, // true/false to Show/Hide the callout boxes (works on white background)
     "hoverColor": "#005999" // Hover Color for All
   },
-  "wdjsmap_1":{
+  "wdjsmap_1": {
     "hover": "AFGHANISTAN",// Info of the popup
-    "url": "",// Link to any webpage
-    "target": "same_page",// Use "same_page", "new_page", or "none"
+    "url": "article-1.html",// Link to any webpage
+    "target": "new_page",// Use "same_page", "new_page", or "none"
     "upColor": "#f3faff",// Default Color
     "active": true // true/false to set it as Active/Inactive
   },
-  "wdjsmap_2":{
+  "wdjsmap_2": {
     "hover": "ALBANIA",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_3":{
+  "wdjsmap_3": {
     "hover": "ALGERIA",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_4":{
+  "wdjsmap_4": {
     "hover": "ANGOLA",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_5":{
+  "wdjsmap_5": {
     "hover": "ARGENTINA",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_6":{
+  "wdjsmap_6": {
     "hover": "ARMENIA",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_7":{
+  "wdjsmap_7": {
     "hover": "AUSTRALIA",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_8":{
+  "wdjsmap_8": {
     "hover": "AUSTRIA",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_9":{
+  "wdjsmap_9": {
     "hover": "AZERBAIJAN",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_10":{
+  "wdjsmap_10": {
     "hover": "BAHAMAS",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_11":{
+  "wdjsmap_11": {
     "hover": "BAHRAIN",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_12":{
+  "wdjsmap_12": {
     "hover": "BANGLADESH",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_13":{
+  "wdjsmap_13": {
     "hover": "BELARUS",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_14":{
+  "wdjsmap_14": {
     "hover": "BELGIUM",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_15":{
+  "wdjsmap_15": {
     "hover": "BELIZE",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_16":{
+  "wdjsmap_16": {
     "hover": "BENIN",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_17":{
+  "wdjsmap_17": {
     "hover": "BHUTAN",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_18":{
+  "wdjsmap_18": {
     "hover": "BOLIVIA",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_19":{
+  "wdjsmap_19": {
     "hover": "BOSNIA AND HERZEGOVINA",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_20":{
+  "wdjsmap_20": {
     "hover": "BOTSWANA",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_21":{
+  "wdjsmap_21": {
     "hover": "BRAZIL",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_22":{
+  "wdjsmap_22": {
     "hover": "BULGARIA",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_23":{
+  "wdjsmap_23": {
     "hover": "BURKINA FASO",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_24":{
+  "wdjsmap_24": {
     "hover": "BURUNDI",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_25":{
+  "wdjsmap_25": {
     "hover": "CAMBODIA",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_26":{
+  "wdjsmap_26": {
     "hover": "CAMEROON",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_27":{
+  "wdjsmap_27": {
     "hover": "CANADA",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_28":{
+  "wdjsmap_28": {
     "hover": "CENTRAL AFRICAN REPUBLIC",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_29":{
+  "wdjsmap_29": {
     "hover": "CHAD",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_30":{
+  "wdjsmap_30": {
     "hover": "CHILE",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_31":{
+  "wdjsmap_31": {
     "hover": "CHINA",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_32":{
+  "wdjsmap_32": {
     "hover": "COLOMBIA",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_33":{
+  "wdjsmap_33": {
     "hover": "CONGO",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_34":{
+  "wdjsmap_34": {
     "hover": "COSTA RICA",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_35":{
+  "wdjsmap_35": {
     "hover": "CROATIA",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_36":{
+  "wdjsmap_36": {
     "hover": "CUBA",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_37":{
+  "wdjsmap_37": {
     "hover": "CYPRUS",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_38":{
+  "wdjsmap_38": {
     "hover": "CZECH REPUBLIC",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_39":{
+  "wdjsmap_39": {
     "hover": "DEMOCRATIC REPUBLIC OF THE CONGO",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_40":{
+  "wdjsmap_40": {
     "hover": "DENMARK",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_41":{
+  "wdjsmap_41": {
     "hover": "DJIBOUTI",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_42":{
+  "wdjsmap_42": {
     "hover": "DOMINICAN REPUBLIC",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_43":{
+  "wdjsmap_43": {
     "hover": "ECUADOR",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_44":{
+  "wdjsmap_44": {
     "hover": "EGYPT",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_45":{
+  "wdjsmap_45": {
     "hover": "EL SALVADOR",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_46":{
+  "wdjsmap_46": {
     "hover": "EQUATORIAL GUINEA",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_47":{
+  "wdjsmap_47": {
     "hover": "ERITREA",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_48":{
+  "wdjsmap_48": {
     "hover": "ESTONIA",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_49":{
+  "wdjsmap_49": {
     "hover": "ESWATINI",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_50":{
+  "wdjsmap_50": {
     "hover": "ETHIOPIA",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_51":{
+  "wdjsmap_51": {
     "hover": "FINLAND",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_52":{
+  "wdjsmap_52": {
     "hover": "FRANCE",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_53":{
+  "wdjsmap_53": {
     "hover": "FRENCH GUIANA",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_54":{
+  "wdjsmap_54": {
     "hover": "GABON",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_55":{
+  "wdjsmap_55": {
     "hover": "GEORGIA",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_56":{
+  "wdjsmap_56": {
     "hover": "GERMANY",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_57":{
+  "wdjsmap_57": {
     "hover": "GHANA",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_58":{
+  "wdjsmap_58": {
     "hover": "GREECE",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_59":{
+  "wdjsmap_59": {
     "hover": "GREENLAND",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_60":{
+  "wdjsmap_60": {
     "hover": "GUATEMALA",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_61":{
+  "wdjsmap_61": {
     "hover": "GUINEA",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_62":{
+  "wdjsmap_62": {
     "hover": "GUINEA-BISSAU",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_63":{
+  "wdjsmap_63": {
     "hover": "GUYANA",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_64":{
+  "wdjsmap_64": {
     "hover": "HAITI",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_65":{
+  "wdjsmap_65": {
     "hover": "HONDURAS",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_66":{
+  "wdjsmap_66": {
     "hover": "HUNGARY",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_67":{
+  "wdjsmap_67": {
     "hover": "ICELAND",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_68":{
+  "wdjsmap_68": {
     "hover": "INDIA",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_69":{
+  "wdjsmap_69": {
     "hover": "INDONESIA",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_70":{
+  "wdjsmap_70": {
     "hover": "IRAN",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_71":{
+  "wdjsmap_71": {
     "hover": "IRAQ",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_72":{
+  "wdjsmap_72": {
     "hover": "IRELAND",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_73":{
+  "wdjsmap_73": {
     "hover": "ISRAEL",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_74":{
+  "wdjsmap_74": {
     "hover": "ITALY",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_75":{
+  "wdjsmap_75": {
     "hover": "IVORY COAST",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_76":{
+  "wdjsmap_76": {
     "hover": "JAMAICA",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_77":{
+  "wdjsmap_77": {
     "hover": "JAPAN",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_78":{
+  "wdjsmap_78": {
     "hover": "JORDAN",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_79":{
+  "wdjsmap_79": {
     "hover": "KAZAKHSTAN",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_80":{
+  "wdjsmap_80": {
     "hover": "KENYA",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_81":{
+  "wdjsmap_81": {
     "hover": "KUWAIT",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_82":{
+  "wdjsmap_82": {
     "hover": "KYRGYZSTAN",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_83":{
+  "wdjsmap_83": {
     "hover": "LAOS",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_84":{
+  "wdjsmap_84": {
     "hover": "LATVIA",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_85":{
+  "wdjsmap_85": {
     "hover": "LEBANON",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_86":{
+  "wdjsmap_86": {
     "hover": "LESOTHO",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_87":{
+  "wdjsmap_87": {
     "hover": "LIBERIA",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_88":{
+  "wdjsmap_88": {
     "hover": "LIBYA",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_89":{
+  "wdjsmap_89": {
     "hover": "LITHUANIA",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_90":{
+  "wdjsmap_90": {
     "hover": "LUXEMBOURG",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_91":{
+  "wdjsmap_91": {
     "hover": "MADAGASCAR",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_92":{
+  "wdjsmap_92": {
     "hover": "MALAWI",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_93":{
+  "wdjsmap_93": {
     "hover": "MALAYSIA",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_94":{
+  "wdjsmap_94": {
     "hover": "MALI",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_95":{
+  "wdjsmap_95": {
     "hover": "MAURITANIA",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_96":{
+  "wdjsmap_96": {
     "hover": "MEXICO",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_97":{
+  "wdjsmap_97": {
     "hover": "MOLDOVA",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_98":{
+  "wdjsmap_98": {
     "hover": "MONGOLIA",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_99":{
+  "wdjsmap_99": {
     "hover": "MONTENEGRO",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_100":{
+  "wdjsmap_100": {
     "hover": "MOROCCO",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_101":{
+  "wdjsmap_101": {
     "hover": "MOZAMBIQUE",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_102":{
+  "wdjsmap_102": {
     "hover": "MYANMAR",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_103":{
+  "wdjsmap_103": {
     "hover": "NAMIBIA",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_104":{
+  "wdjsmap_104": {
     "hover": "NEPAL",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_105":{
+  "wdjsmap_105": {
     "hover": "NETHERLANDS",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_106":{
+  "wdjsmap_106": {
     "hover": "NEW ZEALAND",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_107":{
+  "wdjsmap_107": {
     "hover": "NICARAGUA",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_108":{
+  "wdjsmap_108": {
     "hover": "NIGER",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_109":{
+  "wdjsmap_109": {
     "hover": "NIGERIA",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_110":{
+  "wdjsmap_110": {
     "hover": "NORTH KOREA",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_111":{
+  "wdjsmap_111": {
     "hover": "NORTH MACEDONIA",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_112":{
+  "wdjsmap_112": {
     "hover": "NORWAY",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_113":{
+  "wdjsmap_113": {
     "hover": "OMAN",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_114":{
+  "wdjsmap_114": {
     "hover": "PAKISTAN",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_115":{
+  "wdjsmap_115": {
     "hover": "PANAMA",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_116":{
+  "wdjsmap_116": {
     "hover": "PAPUA NEW GUINEA",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_117":{
+  "wdjsmap_117": {
     "hover": "PARAGUAY",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_118":{
+  "wdjsmap_118": {
     "hover": "PERU",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_119":{
+  "wdjsmap_119": {
     "hover": "PHILIPPINES",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_120":{
+  "wdjsmap_120": {
     "hover": "POLAND",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_121":{
+  "wdjsmap_121": {
     "hover": "PORTUGAL",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_122":{
+  "wdjsmap_122": {
     "hover": "QATAR",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_123":{
+  "wdjsmap_123": {
     "hover": "ROMANIA",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_124":{
+  "wdjsmap_124": {
     "hover": "RUSSIA",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_125":{
+  "wdjsmap_125": {
     "hover": "RWANDA",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_126":{
+  "wdjsmap_126": {
     "hover": "SAUDI ARABIA",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_127":{
+  "wdjsmap_127": {
     "hover": "SENEGAL",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_128":{
+  "wdjsmap_128": {
     "hover": "SERBIA",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_129":{
+  "wdjsmap_129": {
     "hover": "SIERRA LEONE",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_130":{
+  "wdjsmap_130": {
     "hover": "SINGAPORE",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_131":{
+  "wdjsmap_131": {
     "hover": "SLOVAKIA",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_132":{
+  "wdjsmap_132": {
     "hover": "SLOVENIA",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_133":{
+  "wdjsmap_133": {
     "hover": "SOMALIA",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_134":{
+  "wdjsmap_134": {
     "hover": "SOUTH AFRICA",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_135":{
+  "wdjsmap_135": {
     "hover": "SOUTH KOREA",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_136":{
+  "wdjsmap_136": {
     "hover": "SOUTH SUDAN",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_137":{
+  "wdjsmap_137": {
     "hover": "SPAIN",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_138":{
+  "wdjsmap_138": {
     "hover": "SRI LANKA",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_139":{
+  "wdjsmap_139": {
     "hover": "SUDAN",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_140":{
+  "wdjsmap_140": {
     "hover": "SURINAME",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_141":{
+  "wdjsmap_141": {
     "hover": "SWEDEN",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_142":{
+  "wdjsmap_142": {
     "hover": "SWITZERLAND",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_143":{
+  "wdjsmap_143": {
     "hover": "SYRIA",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_144":{
+  "wdjsmap_144": {
     "hover": "TAIWAN",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_145":{
+  "wdjsmap_145": {
     "hover": "TAJIKISTAN",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_146":{
+  "wdjsmap_146": {
     "hover": "TANZANIA",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_147":{
+  "wdjsmap_147": {
     "hover": "THAILAND",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_148":{
+  "wdjsmap_148": {
     "hover": "THE GAMBIA",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_149":{
+  "wdjsmap_149": {
     "hover": "TOGO",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_150":{
+  "wdjsmap_150": {
     "hover": "TUNISIA",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_151":{
+  "wdjsmap_151": {
     "hover": "TURKEY",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_152":{
+  "wdjsmap_152": {
     "hover": "TURKMENISTAN",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_153":{
+  "wdjsmap_153": {
     "hover": "UGANDA",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_154":{
+  "wdjsmap_154": {
     "hover": "UKRAINE",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_155":{
+  "wdjsmap_155": {
     "hover": "UNITED ARAB EMIRATES",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_156":{
+  "wdjsmap_156": {
     "hover": "UNITED KINGDOM",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_157":{
+  "wdjsmap_157": {
     "hover": "UNITED STATES",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_158":{
+  "wdjsmap_158": {
     "hover": "URUGUAY",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_159":{
+  "wdjsmap_159": {
     "hover": "UZBEKISTAN",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_160":{
+  "wdjsmap_160": {
     "hover": "VENEZUELA",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_161":{
+  "wdjsmap_161": {
     "hover": "VIETNAM",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_162":{
+  "wdjsmap_162": {
     "hover": "YEMEN",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_163":{
+  "wdjsmap_163": {
     "hover": "ZAMBIA",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
     "active": true
   },
-  "wdjsmap_164":{
+  "wdjsmap_164": {
     "hover": "ZIMBABWE",
     "url": "", "target": "same_page",
     "upColor": "#f3faff",
@@ -995,9 +995,27 @@ var wdjsmapconfig = {
 };
 
 // The following is the script for map interaction DON'T EDIT !!! //
-(function(){"use strict";function isTouchEnabled(){return('ontouchstart' in window||navigator.maxTouchPoints>0||navigator.msMaxTouchPoints>0)}
-document.addEventListener('DOMContentLoaded',function(){const wdObjAll=document.querySelectorAll('path[id^="wdjsmap_"]');const wdAbbAll=document.querySelectorAll('text[id^="wdjsvn_"]');wdObjAll.forEach(function(wdObj,index){const wdAbb=wdAbbAll[index];const wdTextobj=[wdObj,wdAbb];const id=wdObj.id;addEvent(wdTextobj,id)})});function addEvent(wdTextobj,id){const[wdObj,wdAbb]=wdTextobj;const wdWrapper=document.getElementById('wdjsmapwrapper');const wdVisns=document.getElementById('wdjsvisns');const wdCallouts=document.getElementById('wdjscallouts');const wdTip=document.getElementById('wdjstip');const downColor='#595959';const wdCalloutsColor='#FFFFFF';wdWrapper.style.opacity='1';if(wdjsmapconfig.default.showNames){wdVisns.style.opacity='1';wdVisns.setAttribute('fill',wdjsmapconfig.default.namesColor)}else{wdVisns.style.opacity='0'}
-if(wdjsmapconfig.default.showCallouts){wdCallouts.style.visibility='hidden'}else{wdCallouts.style.visibility='visible';wdCallouts.setAttribute('fill',wdCalloutsColor)}
-wdObj.setAttribute('fill',wdjsmapconfig[id].upColor);wdObj.setAttribute('stroke',wdjsmapconfig.default.borderColor);if(wdjsmapconfig[id].active){if(isTouchEnabled()){let touchmoved;wdTextobj.forEach(function(textObj){textObj.addEventListener('touchstart',function(){touchmoved=!1;wdObj.setAttribute('fill',wdjsmapconfig[id].upColor);wdTip.style.display='none'});textObj.addEventListener('touchmove',function(){touchmoved=!0});textObj.addEventListener('touchend',function(){if(!touchmoved){wdObj.setAttribute('fill',wdjsmapconfig[id].upColor);if(wdjsmapconfig[id].target==='new_page'){window.open(wdjsmapconfig[id].url)}else if(wdjsmapconfig[id].target==='same_page'){window.location.href=wdjsmapconfig[id].url}
-wdTip.style.display='none'}})})}else{wdTextobj.forEach(function(textObj){textObj.style.cursor='pointer';textObj.addEventListener('mouseenter',function(){wdTip.style.display='none';wdObj.setAttribute('fill',wdjsmapconfig.default.hoverColor);wdAbb.setAttribute('fill',wdjsmapconfig.default.namesHoverColor)});textObj.addEventListener('mouseleave',function(){wdTip.style.display='none';wdObj.setAttribute('fill',wdjsmapconfig[id].upColor);wdAbb.setAttribute('fill',wdjsmapconfig.default.namesColor)});if(wdjsmapconfig[id].target!=='none'){textObj.addEventListener('mousedown',function(){wdObj.setAttribute('fill',downColor)})}
-textObj.addEventListener('mouseup',function(){wdTip.style.display='none';wdObj.setAttribute('fill',wdjsmapconfig.default.hoverColor);if(wdjsmapconfig[id].target==='new_page'){window.open(wdjsmapconfig[id].url)}else if(wdjsmapconfig[id].target==='same_page'){window.location.href=wdjsmapconfig[id].url}});textObj.addEventListener('mousemove',function(e){wdTip.style.display='block';wdTip.innerHTML=wdjsmapconfig[id].hover;let x=e.pageX+10,y=e.pageY+15;let wdTipWidth=wdTip.offsetWidth,wdTipHeight=wdTip.offsetHeight;x=(x+wdTipWidth>window.innerWidth+window.scrollX)?x-wdTipWidth-20:x;y=(y+wdTipHeight>window.innerHeight+window.scrollY)?window.innerHeight+window.scrollY-wdTipHeight-10:y;wdTip.style.left=x+'px';wdTip.style.top=y+'px'})})}}else{wdAbb.style.fillOpacity='0.5';wdTextobj.forEach(function(textObj){textObj.style.cursor='default'})}}})()
+(function () {
+  "use strict"; function isTouchEnabled() { return ('ontouchstart' in window || navigator.maxTouchPoints > 0 || navigator.msMaxTouchPoints > 0) }
+  document.addEventListener('DOMContentLoaded', function () { const wdObjAll = document.querySelectorAll('path[id^="wdjsmap_"]'); const wdAbbAll = document.querySelectorAll('text[id^="wdjsvn_"]'); wdObjAll.forEach(function (wdObj, index) { const wdAbb = wdAbbAll[index]; const wdTextobj = [wdObj, wdAbb]; const id = wdObj.id; addEvent(wdTextobj, id) }) }); function addEvent(wdTextobj, id) {
+    const [wdObj, wdAbb] = wdTextobj; const wdWrapper = document.getElementById('wdjsmapwrapper'); const wdVisns = document.getElementById('wdjsvisns'); const wdCallouts = document.getElementById('wdjscallouts'); const wdTip = document.getElementById('wdjstip'); const downColor = '#595959'; const wdCalloutsColor = '#FFFFFF'; wdWrapper.style.opacity = '1'; if (wdjsmapconfig.default.showNames) { wdVisns.style.opacity = '1'; wdVisns.setAttribute('fill', wdjsmapconfig.default.namesColor) } else { wdVisns.style.opacity = '0' }
+    if (wdjsmapconfig.default.showCallouts) { wdCallouts.style.visibility = 'hidden' } else { wdCallouts.style.visibility = 'visible'; wdCallouts.setAttribute('fill', wdCalloutsColor) }
+    wdObj.setAttribute('fill', wdjsmapconfig[id].upColor); wdObj.setAttribute('stroke', wdjsmapconfig.default.borderColor); if (wdjsmapconfig[id].active) {
+      if (isTouchEnabled()) {
+        let touchmoved; wdTextobj.forEach(function (textObj) {
+          textObj.addEventListener('touchstart', function () { touchmoved = !1; wdObj.setAttribute('fill', wdjsmapconfig[id].upColor); wdTip.style.display = 'none' }); textObj.addEventListener('touchmove', function () { touchmoved = !0 }); textObj.addEventListener('touchend', function () {
+            if (!touchmoved) {
+              wdObj.setAttribute('fill', wdjsmapconfig[id].upColor); if (wdjsmapconfig[id].target === 'new_page') { window.open(wdjsmapconfig[id].url) } else if (wdjsmapconfig[id].target === 'same_page') { window.location.href = wdjsmapconfig[id].url }
+              wdTip.style.display = 'none'
+            }
+          })
+        })
+      } else {
+        wdTextobj.forEach(function (textObj) {
+          textObj.style.cursor = 'pointer'; textObj.addEventListener('mouseenter', function () { wdTip.style.display = 'none'; wdObj.setAttribute('fill', wdjsmapconfig.default.hoverColor); wdAbb.setAttribute('fill', wdjsmapconfig.default.namesHoverColor) }); textObj.addEventListener('mouseleave', function () { wdTip.style.display = 'none'; wdObj.setAttribute('fill', wdjsmapconfig[id].upColor); wdAbb.setAttribute('fill', wdjsmapconfig.default.namesColor) }); if (wdjsmapconfig[id].target !== 'none') { textObj.addEventListener('mousedown', function () { wdObj.setAttribute('fill', downColor) }) }
+          textObj.addEventListener('mouseup', function () { wdTip.style.display = 'none'; wdObj.setAttribute('fill', wdjsmapconfig.default.hoverColor); if (wdjsmapconfig[id].target === 'new_page') { window.open(wdjsmapconfig[id].url) } else if (wdjsmapconfig[id].target === 'same_page') { window.location.href = wdjsmapconfig[id].url } }); textObj.addEventListener('mousemove', function (e) { wdTip.style.display = 'block'; wdTip.innerHTML = wdjsmapconfig[id].hover; let x = e.pageX + 10, y = e.pageY + 15; let wdTipWidth = wdTip.offsetWidth, wdTipHeight = wdTip.offsetHeight; x = (x + wdTipWidth > window.innerWidth + window.scrollX) ? x - wdTipWidth - 20 : x; y = (y + wdTipHeight > window.innerHeight + window.scrollY) ? window.innerHeight + window.scrollY - wdTipHeight - 10 : y; wdTip.style.left = x + 'px'; wdTip.style.top = y + 'px' })
+        })
+      }
+    } else { wdAbb.style.fillOpacity = '0.5'; wdTextobj.forEach(function (textObj) { textObj.style.cursor = 'default' }) }
+  }
+})()
