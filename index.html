@@ -45,24 +45,6 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- Style -->
   <link rel="stylesheet" href="build/css/app.css" />
-  <style>
-    /* .table-scroll {
-      position: relative;
-      width: 100%;
-      z-index: 1;
-      margin: auto;
-      overflow: auto;
-      height: 350px;
-    }
-
-    .table-scroll table {
-      width: 100%;
-      min-width: 1280px;
-      margin: auto;
-      border-collapse: separate;
-      border-spacing: 0;
-    } */
-  </style>
 </head>
 
 <body>
@@ -70,10 +52,27 @@
     <div class="loader"></div>
   </div>
   <header>
-    <img src="build/img/logo.webp" alt="logo">
+    <a href="index.html"><img src="build/img/logo.webp" alt="logo"></a>
   </header>
+  <nav class="navbar navbar-expand-sm navbar-light bg-light">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="us.html">Qui sommes nous?</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Nous contacter</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="faq.html">Questions fréquents</a>
+      </li>
+    </ul>
+  </nav>
 
   <section class="map">
+    <div class="col-1"></div>
     <span id="wdjstip"></span>
     <div id="wdjsmapwrapper" style="opacity:0;">
       <div id="wdjsmapbase">
@@ -630,9 +629,10 @@
       </div>
     </div>
     <div class="clear"></div>
+    <div class="col-2"></div>
   </section>
 
-  <section>
+  <section class="table-section">
     <div class="panel">
       <div class="input-group">
         <label for="searchBox">Rechercher par pays:</label>
@@ -3131,7 +3131,7 @@
           <div class="blog-section-title">
             <h2>Articles</h2>
           </div>
-          <article class="blog-post">
+          <!-- <article class="blog-post">
             <div class="blog-post-thumb">
               <img src="build/img/1.webp" alt="blog-thum" />
             </div>
@@ -3244,749 +3244,143 @@
               </p>
               <a href="article-6.html" class="blog-post-action">En savoir plus<i class="fa fa-angle-right"></i></a>
             </div>
-          </article>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="red-rectangle">
-
-  </section>
-
-  <section class="featured">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <article class="featured-post">
-            <div class="featured-post-content">
-              <h3>
-                Qui sommes-nous?
-              </h3>
-              <br>
-              <p>
-                Lancée en février 2025, InfoGPA est une initiative qui vise à fournir des informations objectives,
-                correctes, complètes et sans jugement sur la gestation pour autrui (GPA), particulièrement en ce qui
-                concerne la légalité de cette dernière dans les divers pays du monde.
-              </p>
-              <br>
-              <p>
-                InfoGPA est un projet de BabyMedic/FertiHaus, organisation apportant des services d'accompagnement sur
-                le territoire mexicain, pour aider les personnes à exercer leur droit à la parentalité par voie de la
-                gestation pour autrui (GPA) éthique, en leur fournissant tout le soutien juridique et administratif à
-                cette fin, à l’abri des abus financiers et administratifs qui se produisent souvent au sein d'autres
-                agences ou cliniques à travers le monde. Nos fondateurs sont français pour l'un et brésilien pour
-                l'autre.
-              </p>
-            </div>
-            <div class="featured-post-thumb">
-              <img src="build/img/us.webp" alt="us-thumb" />
-            </div>
-          </article>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="red-rectangle">
-
-  </section>
-
-  <section class="blog-single column-news">
-    <div class="container">
-      <div class="row column-blog">
-        <div class="col-lg-10 order-1 order-lg-2">
-          <article class="single-blog">
-            <h3>GPA solidaire (GSS): Qu'est-ce que c'est ? Qui la finance ?</h3>
-            <p>
-              La gestation pour autrui (GPA) solidaire —ou GSS, de son sigle en espagnol— est une initiative innovante,
-              exclusivement facilitée par FertiHaus/BabyMedic. En soi, il s’agit d’un processus de GPA comme tout autre,
-              mais avec une éthique et une finalité différentes. Son principal facteur déterminant est le fait qu’elle
-              soit partiellement subventionnée – jusqu’à 30 % – par notre agence et ses collaborateurs, grâce à une
-              série de conditions spécifiques tout au long du processus qui nous permettent d’offrir aux futurs parents
-              de l’aide pour concrétiser leurs projets familiaux.
-            </p>
-            <p>
-              Ces généreuses subventions proviennent de sources diverses – dons, tombolas, etc. –, mais plus
-              particulièrement grâce aux efforts de nos directeurs, eux-mêmes parents d’enfants nés par GPA, et qui
-              croient profondément que l’égalité des droits de paternité devrait être accessible à tous, plutôt qu’un
-              privilège réservé aux couches les plus aisées de la société.
-            </p>
-            <p>
-              Tous nos programmes GSS incluent:
-            </p>
-            <ul>
-              <li>Trajets aéroport - logement - aéroport lors du premier et du deuxième voyage au Mexique. (NB: Merci de
-                penser bien à trouver un logement aux quartiers Condesa ou Roma)
-              </li>
-              <li>
-                Tous les trajets agence - hôpital ou clinique de dépôts - agence.
-              </li>
-              <li>
-                Première visite du bébé à l’hôpital
-              </li>
-            </ul>
-            <p>
-              Par ailleurs, à chaque trimestre, lors du contrôle materno-fœtal, chaque gestatrice au programme GSS
-              reçoit un colis de denrées basiques de nutrition et d’hygiène (p.ex., eau pure, pâtes, riz, lentilles,
-              tortillas, atole, haricots, thon, conserves de légumes, huile de cuisine, papier hygiénique, etc.), qui
-              leur fait toujours très plaisir.
-            </p>
-          </article>
-        </div>
-      </div>
-    </div>
-    <div class="row column-blog">
-      <div class="news">
-        <h3>Presse</h3>
-        <div class="new-item">
-          <div class="new-img"><img src="build/img/news-1.webp" alt="news"></div>
-          <div class="new-info"><a href="https://www.youtube.com/watch?v=qhCRpZ-nNGY">Profitez de cette incroyable
-              interview avec Anthony Toffoli (Conseiller en fertilité), Galerías El Triunfo (chaîne YouTube), 15 juin
-              2024.</a></div>
-        </div>
-        <div class="new-item">
-          <div class="new-img"><img src="build/img/news-2.webp" alt="news"></div>
-          <div class="new-info"><a href="https://www.amazon.fr/NOTRE-GPA-R%C3%A9my-Fargeas/dp/2371585343"> Amazon.fr - NOTRE GPA - Fargeas, Rémy - Livres</a></div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="blog-single">
-    <div class="container">
-      <div class="row column-blog">
-        <div class="accordion faq-container" id="accordionExample">
-          <h3>Questions fréquentes</h3>
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                aria-expanded="true" aria-controls="collapseOne">
-                1. Êtes-vous la seule clinique à offrir ce type de service au Mexique ?
-              </button>
-            </h2>
-            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                À notre connaissance, quelques dizaines de cliniques au Mexique proposent des services de GPA.
-                Toutefois, nous déconseillons fortement toute alternative à FertiHaus/BabyMedic, car nous ne pouvons
-                garantir qu'aucune d'entre elles ne respecte des normes de sécurité, d'éthique et de service client
-                comparables aux nôtres, sans parler de nos tarifs raisonnables et inégalés.
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                2. Est-ce que tout ce que vous faites est bien légal ?
-              </button>
-            </h2>
-            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                <p>
-                  Absolument. Au Mexique, il n’existe pas de loi réglementant la GPA au niveau fédéral. Cependant, en
-                  2021, la Cour suprême a statué que chaque individu, quelle que soit son orientation sexuelle, son état
-                  matrimonial ou sa nationalité, a le droit d’accéder à la technologie de procréation assistée pour
-                  fonder une famille. Elle a également statué que la filiation légale devrait être fondée sur la
-                  présence d’une volonté procréatrice, et non sur une relation génétique ou gestationnelle.
-                </p>
-                <p>
-                  De ce fait, en plus des jurisprudences récentes à Mexico, où nous sommes basés, la structure
-                  gouvernementale et le registre public ont permis à FertiHaus/BabyMedic d'obtenir tout l’appui
-                  juridique nécessaire pour mener à bien sa mission depuis une décennie déjà, tout en bénéficiant du
-                  soutien total du Consulat français dans la capitale mexicaine.
-                </p>
-                <p>
-                  En outre, depuis 2024, 3 initiatives visant à réglementer la GPA commerciale à Mexico et dans le pays
-                  entier ont été présentées au gouvernement, et on prédit qu’elles seront bientôt fructueuses.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                3. Quels sont les avantages du Mexique en tant que destination pour la GPA par rapport aux autres pays ?
-              </button>
-            </h2>
-            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                <p>
-                  Le Mexique, et plus particulièrement la ville de Mexico, est actuellement le meilleur endroit pour
-                  mener à bien des procédures de maternité de substitution pour des raisons politiques, éthiques et
-                  financières.
-                </p>
-                <p>
-                  En examinant de près notre carte mondiale de la légalité de la maternité de substitution par pays, on
-                  peut remarquer que très peu d'endroits dans le monde disposent de réglementations appropriées en la
-                  matière, ce qui donne lieu à des marchés noirs où les violations des droits de l'homme prévalent du
-                  côté des gestatrices et où de lourdes escroqueries touchent continuellement les futurs parents.
-                </p>
-                <p>
-                  De plus, certaines des destinations traditionnellement les plus populaires pour la GPA (par exemple :
-                  l'Ukraine, la Russie, l’Argentine, la Géorgie) ne sont plus opérationnelles en raison de conflits
-                  armés ​ou de l’instabilité politique, sans parler du fait que la grande majorité d'entre elles
-                  discriminent ouvertement les couples de même sexe, les personnes non mariées, etc.
-                </p>
-                <p>
-                  D'autre part, grâce aux conditions amicales qui existent à Mexico, FertiHaus/Babymedic a aidé des
-                  centaines de futurs parents de diverses nationalités à réaliser leurs rêves, quel que soit leur état
-                  civil, leur orientation sexuelle, leur identité de genre, leur origine ethnique, leur situation
-                  financière ou leur statut VIH, sans commettre d'actes illégaux ou éthiquement douteux à aucun moment
-                  du processus.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                4. Dans quelle mesure le Mexique en général est-il sûr ou dangereux ?
-              </button>
-            </h2>
-            <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                <p>
-                  Comme tous les pays du monde, le Mexique a de bons et de mauvais endroits et n’est pas entièrement
-                  libre du risque de crime. Or, malgré l’image que les médias internationaux choisissent de favoriser
-                  (voire fabriquer), le Mexique est en général un pays sûr, et la ville de Mexico encore plus. Rien
-                  n'est comme il paraît sur les séries Netflix Reine du Sud ou Narcos, ou alors sur Emilia Pérez.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                5. Comment puis-je être sûr que ce processus sera éthique pour toutes les parties concernées ?
-              </button>
-            </h2>
-            <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                <p>
-                  FertiHaus/Babymedic prend l'éthique et le respect des droits humains très au sérieux, car ils sont au
-                  cœur de notre mission et de notre vision. À ce titre, nous avons mis en place des normes strictes pour
-                  garantir que nos processus de GPA soient équitables et agréables pour toutes les parties concernées. À
-                  savoir :
-                </p>
-                <ol>
-                  <li>
-                    Du côté des futurs parents et des bébés :
-                    <ul>
-                      <li>Dans un premier temps, des évaluations socio-économiques sont réalisées pour évaluer la
-                        capacité financière de chaque individu ou couple à devenir parent.
-                      </li>
-                      <li>
-                        Dans un deuxième temps, des entretiens d'introduction ont lieu en ligne avec le personnel de
-                        FertiHaus/Babymedic pour valider l'authenticité de toutes les informations fournies par le(s)
-                        futur(s) parent(s). Si le temps le permet, leur admission au programme est officialisée par un
-                        bref appel vidéo avec notre PDG Anthony.
-                      </li>
-                      <li>
-                        Un soutien juridique, émotionnel et logistique en français est offert au(x) futur(s) parent(s)
-                        tout au long de leur parcours, y compris la signature notariée des contrats et toutes les
-                        communications avec leurs gestatrices respectives. Pour toute demande de renseignements en
-                        dehors du Mexique, FertiHaus/Babymedic vous garantit une réponse dans les 24 heures (ou 48
-                        heures pendant les jours fériés et les week-ends).
-                      </li>
-                      <li>
-                        Le taux de satisfaction extrêmement élevé de nos patients, confirmé par les nombreux cas de
-                        futurs parents qui nous ont fait confiance plus d'une fois, témoigne de la qualité de ces
-                        normes.
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    Du côté des gestatrices :
-                    <ul>
-                      <li>
-                        En tant que filtre de présélection, des évaluations psychologiques et socio-économiques
-                        approfondies sont réalisées en personne (à la fois dans nos bureaux et à leur domicile) pour
-                        évaluer l'aptitude de chaque candidate à nos programmes de GPA. Cela comprend des entretiens
-                        approfondis avec les membres de sa famille biologique et politique, ce qui nous aide à nous
-                        assurer que son consentement à conclure un accord avec nous est authentique et qu'aucune
-                        exploitation ou pression indue n'est en jeu.
-                      </li>
-                      <li>
-                        Les candidates ne sont éligibles que si elles ont déjà accouché au moins une fois, n'ont pas
-                        subi plus d'une césarienne et n'ont pas de problèmes médicaux supplémentaires qui pourraient
-                        compromettre la sécurité du ou des bébé(s) éventuel(s) ou la leur.
-                      </li>
-                      <li>
-                        Les contrats leur sont soigneusement expliqués dans un langage accessible, puis signés en
-                        présence d'un notaire.
-                      </li>
-                      <li>
-                        Un soutien médical et psychologique constant de la plus haute qualité est fourni. Cela comprend
-                        des assurances vie et médicale de premier ordre valables tout au long du processus.
-                      </li>
-                      <li>
-                        Pour garantir l'équité et réaffirmer leur autonomie, les gestatrices reçoivent leurs paiements
-                        en plusieurs allocations proportionnelles au lieu de devoir attendre la fin de l'ensemble du
-                        processus. Au moment de la naissance, elles auront reçu l'équivalent de plus de 3 ans de salaire
-                        moyen au Mexique, ainsi qu'un don généreux de fournitures et d'aliments de base pour assurer
-                        leur santé et leur nutrition pendant et après le processus.
-                      </li>
-                      <li>
-                        La qualité de ces normes est attestée par le taux de satisfaction extrêmement élevé de nos
-                        gestatrices, confirmé par les nombreux cas de gestatrices qui ont réalisé plusieurs cycles de
-                        grossesse avec nous — certaines d'entre elles étant même devenues membres à temps plein de notre
-                        équipe ! —.
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    Du côté des donneuses d'ovules :
-                    <ul>
-                      <li>
-                        En tant que filtre de présélection, des évaluations médicales, psychologiques et
-                        socio-économiques approfondies sont réalisées pour évaluer l'aptitude de chaque candidate.
-                      </li>
-                      <li>
-                        Une fois sélectionnées, les contrats de don d'ovules leur sont soigneusement expliqués dans un
-                        langage accessible, puis signés en présence d'un notaire.
-                      </li>
-                      <li>
-                        Un soutien médical et psychologique constant de la plus haute qualité leur est fourni tout au
-                        long de chaque cycle de préparation.
-                      </li>
-                      <li>
-                        Conformément à la réglementation médicale en vigueur au Mexique, ainsi qu'aux souhaits des
-                        donneuses elles-mêmes, leur identité est strictement confidentielle à tout moment, et aucune de
-                        leurs données personnelles n'est partagée avec qui que ce soit, sauf si cela est médicalement ou
-                        légalement requis.
-                      </li>
-                      <li>
-                        La qualité de ces standards est attestée par nos taux de satisfaction extrêmement élevés de nos
-                        donateurs, confirmés par les nombreux cas de donateurs qui ont choisi de continuer à collaborer
-                        avec nous au fil des années.
-                      </li>
-                    </ul>
-                  </li>
-                </ol>
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                6. Combien de parents avez-vous eu jusqu'à présent ?
-              </button>
-            </h2>
-            <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                <p>
-                  De notre fondation en janvier 2021 à présent (février 2025), nous avons facilité presque 200
-                  naissances —principalement des couples français, mais des parents belges, suisses, anglais, allemands,
-                  suédois et américains nous ont également fait confiance—.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                7. Avez-vous des références ?
-              </button>
-            </h2>
-            <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                <p>
-                  Oui, nous avons de nombreuses références. Par exemple, de nombreux groupes créés par d'anciens et
-                  futurs parents d’intention (IP) existent sur les réseaux sociaux tels que Facebook, Instagram ou
-                  TikTok. Dans ces réseaux, parmi les agences et cliniques qui sont le plus souvent nommées se trouve
-                  BabyBoom, notre agence sœur qui fait partie du groupe avec lequel nous travaillons en collaboration,
-                  et sur lequel nous nous inspirons pour les paramètres établis au sein de GPA Solidaire (GSS).
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-                8. Quels filtres psychologiques et socio-économiques existent pour les IP, les gestatrices et les
-                donneuses ?
-              </button>
-            </h2>
-            <div id="collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                <p>
-                  Au niveau psychologique, les futurs parents doivent démontrer une réelle volonté d'exercer leur droit
-                  à la parentalité, sans arrière-pensées ni facteurs environnementaux qui mettraient en danger le bon
-                  développement du bébé.
-                </p>
-                <p>
-                  Les gestatrices doivent démontrer une réelle volonté d'aider les couples ou les individus dans leur
-                  quête de paternité, ainsi qu’un environnement familial sain propice à une GPA réussie, et une
-                  compréhension approfondie de leurs droits et obligations potentiels en tant que gestatrices.
-                </p>
-                <p>
-                  Les donneuses doivent déclarer qu'elles ne souffrent d'aucune maladie grave ou héréditaire qui
-                  pourrait avoir un impact négatif sur le bébé.
-                </p>
-                <p>
-                  Au niveau socio-économique, les futurs parents doivent (après avoir reçu leur subvention
-                  personnalisée, si applicable) démontrer une capacité à remplir leurs obligations financières et à
-                  subvenir aux besoins du bébé et d'eux-mêmes.
-                </p>
-                <p>
-                  À leur tour, les gestatrices et les donneuses doivent démontrer que leurs éventuelles compensations
-                  auraient le potentiel d’améliorer considérablement leur qualité de vie à court et moyen terme, mais
-                  que cette amélioration n’est pas que leur principale motivation et qu’elles ne sont jamais dans une
-                  situation de désespoir financier qui pourrait les rendre vulnérables à l’exploitation.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
-                9. Est-ce que tout le monde est éligible pour les subventions du programme de GPA solidaire ?
-              </button>
-            </h2>
-            <div id="collapseNine" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                <p>
-                  En principe, le programme de GPA solidaire se veut le plus inclusif possible. Cela étant dit, nous
-                  devons rester conscients des disparités qui affligent de plus en plus notre monde et de la composante
-                  altruiste de ce programme, tout cela à la lumière de notre budget modeste. En tant que tel, nous nous
-                  trouvons dans l’obligation d’imposer quelques restrictions d’éligibilité. À savoir :
-                <ol>
-                  <li>
-                    Les bénéficiaires auront un besoin important de la subvention, mais pas au point de constituer un
-                    environnement financièrement risqué pour le bébé.
-                  </li>
-                  <li>
-                    Les futurs parents qui ont un handicap mental peuvent être bénéficiaires de notre programme, à
-                    condition que le handicap ne mette pas potentiellement en danger le bébé.
-                  </li>
-                  <li>
-                    En raison des coûts très élevés du lavage des gamètes, nous ne sommes malheureusement pas en mesure
-                    d’accepter les futurs parents séropositifs dans le programme GSS. Cependant, si vous êtes dans cette
-                    situation, nous vous invitons chaleureusement à considérer les programmes réguliers de GPA avec
-                    notre agence sœur BabyBoom.
-                  </li>
-                  <li>
-                    Si votre spermogramme relève des anomalies égales ou supérieures à 25%, nous ne serons
-                    malheureusement
-                    pas en mesure de vous accepter dans le programme GSS, du fait que les chances de réussite diminuent
-                    considérablement dans ces cas.
-                  </li>
-                </ol>
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
-                10. Quel est le calendrier de paiement des programmes GSS ?
-              </button>
-            </h2>
-            <div id="collapseTen" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                <p>
-                  Le programme sera divisé en 10 étapes qui correspondent à 10 factures à payer et qui seront payées
-                  progressivement au fur et à mesure des étapes.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
-                11. Puis-je amener ma propre donneuse ?
-              </button>
-            </h2>
-            <div id="collapseEleven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                <p>
-                  Non, étant donné que les normes industrielles en vigueur au Mexique exigent que les dons de gamètes
-                  soient anonymes et que, d'un point de vue juridique, les conflits de paternité avec votre donneuse
-                  seraient extrêmement risqués si vous vous connaissiez personnellement.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
-                12. Pourquoi ne puis-je pas contacter ma (mes) donneuse(s) ?
-              </button>
-            </h2>
-            <div id="collapseTwelve" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                <p>
-                  D’un côté, parce que nos donneuses souhaitent rester anonymes et qu’il faut respecter ce désir. Et
-                  d’un autre côté, parce que c’est grâce à cet anonymat que l’on peut obtenir la rétractation notarisée
-                  des gestatrices à faveur des parents d’intention.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">
-                13. Pourquoi ne puis-je pas choisir ma/mes gestatrice(s) ?
-              </button>
-            </h2>
-            <div id="collapseThirteen" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                <p>
-                  Pour le bien-être de votre bébé, de votre (vos) gestatrice(s), et de vos finances. En effet, vu qu’il
-                  n’y aura aucun lien génétique entre la gestatrice et votre fils/fille, et vue la grande quantité
-                  d’éléments à prendre en compte pour sélectionner la meilleure gestatrice, c'est à l'équipe médicale et
-                  psychologique de la choisir selon les besoins spécifiques à chaque cas. Cette méthode nous donne de
-                  très bons résultats depuis des années, et elle nous permet également de changer de gestatrice autant
-                  de fois que nécessaire dans les cas où les tests de grossesses sont négatifs, sans aucune implication
-                  financière de la part des parents d’intention.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapseFourteen" aria-expanded="false" aria-controls="collapseFourteen">
-                14. Pourquoi le contact avec les gestatrices devrait-il toujours être modéré par vous ?
-              </button>
-            </h2>
-            <div id="collapseFourteen" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                <p>
-                  Pour votre sécurité, ainsi que celle de votre gestatrice. Si un conflit quelconque venait à se
-                  susciter entre vous, par exemple, nous n’aurions aucune façon de savoir si la dignité et les
-                  politiques du contrat ont été respectées à tout moment ou pas. D’autant moins que les barrières
-                  linguistiques risquent de provoquer des malentendus très sérieux ou déplaisants qui auraient pu être
-                  évités ou mitigés en présence d’un modérateur. Or, une fois le processus terminé, vous serez
-                  entièrement libres d’échanger coordonnées si vous le souhaitez.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapseFifteen" aria-expanded="false" aria-controls="collapseFifteen">
-                15. Quelles sont nos chances de réussite ?
-              </button>
-            </h2>
-            <div id="collapseFifteen" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                <p>
-                  Les chances de réussite dépendront largement du sperme fourni par le père génétique. Pour cette
-                  raison, avant de commencer officiellement un programme, nous devons recevoir de nombreuses analyses
-                  qui peuvent être effectuées en France et que nous pouvons vous aider à obtenir. Ceci étant dit, nos
-                  chances de réussite sont en général très hautes, à tel point que nous nous réjouissons de rappeler
-                  souvent à tous nos patients que « Parmi ceux qui nous font confiance et qui sont éligibles pour nos
-                  programmes, personne n’est encore parti sans son bébé! ».
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapseSixteen" aria-expanded="false" aria-controls="collapseSixteen">
-                16. Dans quel hôpital mon bébé naîtra-t-il ?
-              </button>
-            </h2>
-            <div id="collapseSixteen" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                <p>
-                  Cela dépendra largement des besoins spécifiques de votre gestatrice, ainsi que des disponibilités au
-                  moment de l’accouchement. Nous travaillons avec 8 hôpitaux privés de la plus haute qualité à Mexico et
-                  sa périphérie. Vous en visiterez un —où la plupart de nos accouchements se déroulent— lors de votre
-                  premier voyage au Mexique.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapseSeventeen" aria-expanded="false" aria-controls="collapseSeventeen">
-                17. Pourquoi ne puis-je pas assister à l'accouchement ?
-              </button>
-            </h2>
-            <div id="collapseSeventeen" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                <p>
-                  En raison des restrictions établies par le Ministère de la santé de la République mexicaine. Vous
-                  pourrez toutefois rendre visite à votre bébé une fois son période d’observation pédiatrique terminée,
-                  et nous serons très heureux de vous y accompagner.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapseEighteen" aria-expanded="false" aria-controls="collapseEighteen">
-                18. Le bébé sera-t-il mexicain ?
-              </button>
-            </h2>
-            <div id="collapseEighteen" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                <p>
-                  Oui. En vertu du principe ius solis (droit de sol), toute personne née dans le territoire national du
-                  Mexique obtient automatiquement la nationalité mexicaine. En vertu du principe ius sanguinis (droit de
-                  sang), votre bébé aura également la nationalité française avec le soutien du Consulat français et de
-                  nos avocats largement expérimentés.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapseNineteen" aria-expanded="false" aria-controls="collapseNineteen">
-                19. Comment pouvons-nous être sûrs que les autorités mexicaines ne nous poseront pas de problèmes pour
-                quitter le pays une fois que nous aurons notre/nos bébé(s) ?
-              </button>
-            </h2>
-            <div id="collapseNineteen" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                <p>
-                  Puisque le(s) bébé(s) sera (seront) français, et que vous allez repartir avec l’acte de naissance
-                  français que le consulat vous fournira, ainsi qu’avec un laissez-passer français délivré par les
-                  autorités françaises, vous devriez pouvoir rentrer en France sans aucune difficulté. D’autant plus que
-                  votre fils ou fille portera le même nom de famille et aura la même nationalité que son père
-                  biologique.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapseTwenty" aria-expanded="false" aria-controls="collapseTwenty">
-                20. Je veux commencer le plus tôt possible ! Quelles sont les premières étapes ?
-              </button>
-            </h2>
-            <div id="collapseTwenty" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                <p>
-                  Nous avons hâte de vous accueillir chez GSS ! Si vous souhaitez commencer dès maintenant, la première
-                  chose à faire est de remplir notre questionnaire afin que nous puissions valider votre pourcentage de
-                  subvention, et ce, sous 24 heures.
-                </p>
-                <p>
-                  Une fois que votre éligibilité aura été confirmée, le futur père biologique du bébé devra passer tous
-                  les tests médicaux
-                </p>
-                <p>
-                  Si tout est en ordre et que vous êtes jugé(e)(x) éligible pour continuer (ce qui est le cas la plupart
-                  du temps), nous vous recontacterons avec notre catalogue de donneuses.
-                </p>
-                <p>
-                  Dès que vous aurez choisi une donneuse, vous pourrez commencer à organiser votre premier voyage au
-                  Mexique, au cours duquel vous ferez notre connaissance à tous, pourrez visiter l'hôpital, la clinique,
-                  rencontrer les gynécologues et pédiatres, notre avocat, notre notaire… Ce sont quelques jours intenses
-                  que vous n’oublierez jamais.
-                </p>
-                <p>
-                  Veuillez noter que trois jours d'abstinence d’activité sexuelle sont requis avant le dépôt de sperme
-                  qui servira à l'obtention de la création embryonnaire et la FIV.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapseTwentyone" aria-expanded="false" aria-controls="collapseTwentyone">
-                21. Si tout se passe bien, combien de temps cela prendra-t-il exactement pour avoir mon bébé ?
-              </button>
-            </h2>
-            <div id="collapseTwentyone" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                <p>
-                  Supposons que nous sommes le 1er janvier et que vous choisissez aujourd'hui votre donneuse d'ovules.
-                  Elle sera informée immédiatement et devra prendre des contraceptifs pendant 15 jours pour stimuler sa
-                  production d'ovules, donc sa séance de capture aura lieu le 16 janvier.
-                </p>
-                <p>
-                  En attendant, parce que vous avez tellement hâte de tenir votre bébé dans vos bras le plus tôt
-                  possible, vous avez pris le premier vol disponible pour Mexico et vous êtes arrivée le 9 janvier.
-                </p>
-                <p>Après quelques jours de repos et de visites, vous venez à notre bureau le 13 janvier pour signer le
-                  contrat notarié et effectuer votre premier dépôt de sperme, ayant respecté le seuil d'abstinence
-                  sexuelle depuis le 10 janvier.
-                </p>
-                <p>Trois jours plus tard, le 16 janvier, vous effectuez votre deuxième dépôt de sperme. Comme c'est
-                  aussi la date de capture de votre donneuse (même si vous ne la verrez pas), vos embryons seront créés
-                  en frais aujourd'hui.
-                </p>
-                <p>Le 22 janvier, notre personnel de laboratoire vérifie combien d'embryons ont survécu et quelle est
-                  leur qualité. Si vous avez demandé un test PGTA, vous devez également être informée du sexe des
-                  embryons et de la présence d'anomalies chromosomiques éventuelles à ce moment-là. Sur cette base, vous
-                  pouvez choisir le ou les embryons que vous souhaitez transférer dans l'utérus de votre gestatrice.
-                </p>
-                <p>En attendant, une gestatrice vous sera attribuée et une demande d'assurance sera envoyée en son nom.
-                  Malheureusement, pour éviter la fraude à l'assurance, très courante dans les années 1980, les
-                  compagnies d'assurance prennent au moins 10 mois pour lancer officiellement la couverture. Nous devons
-                  donc laisser une période de latence de trois mois avant que la gestatrice puisse commencer en toute
-                  sécurité sa préparation endométriale (c'est-à-dire commencer à prendre des contraceptifs et d'autres
-                  médicaments pour épaissir son endomètre).
-                </p>
-                <p>Une fois la latence terminée (vers le 16 avril), la gestatrice commencera la préparation
-                  endométriale, qui prendra un mois (jusqu'au 16 mai). Ce jour-là, son gynécologue fera un contrôle et,
-                  si l'endomètre est optimal, le transfert aura lieu dans les jours qui suivent (17/18 mai). C'est là
-                  que commence la période d'attente la plus difficile (environ un mois).
-                </p>
-                <p>Vers le 18 juin, votre gestatrice fera un test Bêta (de grossesse) chez son gynécologue. Si le test
-                  est positif, le bébé est officiellement en route ! Vers le 1er juillet (environ huit semaines après
-                  les dernières règles de la gestatrice), le bébé aura survécu à la période statistiquement la plus
-                  risquée et il est donc beaucoup plus probable que la grossesse se déroule bien. Si aucune complication
-                  ne survient, votre bébé devrait arriver environ neuf mois après la date du transfert, ce qui
-                  correspond à peu près au 17 février de l'année suivante.
-                </p>
-                <p>Ainsi, dans un scénario parfaitement bleu, l'ensemble du processus prendrait au minimum un an, un
-                  mois et deux semaines. En pratique, en raison des aléas de la planification des IP et des contretemps
-                  mineurs qui sont naturels à tout processus GPA, la durée moyenne d'un programme dans notre clinique
-                  est d'un an et quatre mois.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapseTwentytwo" aria-expanded="false" aria-controls="collapseTwentytwo">
-                22. Si je reçois une subvention élevée, est-ce que je serai moins bien traité(e)(x) que si je payais un
-                tarif complet ?
-              </button>
-            </h2>
-            <div id="collapseTwentytwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                <p>
-                <p>Absolument pas. L’un des principes fondamentaux de notre organisation est de traiter chaque cas avec
-                  le même niveau de respect et de sérieux.
-                </p>
-                <p>Ainsi, notre promesse envers vous, est de vous assurer que l’argent ne marquera jamais aucune
-                  différence dans nos accompagnements et notre aide apportée au projet de votre vie.
-                </p>
-              </div>
-            </div>
+          </article> -->
+          <!-- <div class="row"> -->
+          <div class="article-grid">
+            <!-- <div class="column"> -->
+              <article class="blog-post">
+                <div class="blog-post-thumb">
+                  <img src="build/img/1.webp" alt="blog-thum" />
+                </div>
+                <div class="blog-post-content">
+                  <div class="blog-post-tag">
+                  </div>
+                  <div class="blog-post-title">
+                    <a href="article-1.html">Une pratique aussi ancienne que l’histoire elle-même.</a>
+                  </div>
+                  <p>
+                    La « GPA » est une méthode de procréation médicalement assistée, par laquelle une personne ou un
+                    couple
+                    (appelés « parents d’intention ») qui rêve d’avoir un enfant fait appel à une femme (appelée «
+                    gestatrice
+                    ») qui accepte de porter son bébé, que ce soit volontairement ou en échange d’une rémunération
+                    définie
+                    par
+                    contrat.
+                  </p>
+                  <a href="article-1.html" class="blog-post-action">En savoir plus<i class="fa fa-angle-right"></i></a>
+                </div>
+              </article>
+              <article class="blog-post">
+                <div class="blog-post-thumb">
+                  <img src="build/img/2.webp" alt="blog-thum" />
+                </div>
+                <div class="blog-post-content">
+                  <div class="blog-post-tag">
+                  </div>
+                  <div class="blog-post-title">
+                    <a href="article-2.html">Malgré toute la désinformation qui l’entoure, la GPA éthique est
+                      possible.</a>
+                  </div>
+                  <p>
+                    Pour ceux d’entre nous qui pratiquent et croient en la GPA éthique, il est important d’aborder cette
+                    controverse avec prudence et empathie. Nous devons commencer par réaliser que, parmi ceux qui
+                    s’opposent
+                    à
+                    toute forme de GPA, beaucoup sont en fait motivés par de véritables préoccupations de justice
+                    sociale et
+                    de respect des droits de l’homme.
+                  </p>
+                  <a href="article-2.html" class="blog-post-action">En savoir plus<i class="fa fa-angle-right"></i></a>
+                </div>
+              </article>
+            <!-- </div> -->
+            <!-- <div class="column"> -->
+              <article class="blog-post">
+                <div class="blog-post-thumb">
+                  <img src="build/img/3.webp" alt="blog-thum" />
+                </div>
+                <div class="blog-post-content">
+                  <div class="blog-post-tag">
+                  </div>
+                  <div class="blog-post-title">
+                    <a href="article-3.html">« Utiliser les femmes comme des caissiers automatiques » ?</a>
+                  </div>
+                  <p>
+                    Mais même en l’absence de toute cette confusion, il existe des arguments plus « directs » contre la
+                    GPA,
+                    qui s’appuient souvent sur une interprétation très spécifique de la morale judéo-chrétienne qui
+                    laisse
+                    peu ou pas de place à la nuance.
+                  </p>
+                  <a href="article-3.html" class="blog-post-action">En savoir plus<i class="fa fa-angle-right"></i></a>
+                </div>
+              </article>
+              <article class="blog-post">
+                <div class="blog-post-thumb">
+                  <img src="build/img/4.webp" alt="blog-thum" />
+                </div>
+                <div class="blog-post-content">
+                  <div class="blog-post-tag">
+                  </div>
+                  <div class="blog-post-title">
+                    <a href="article-4.html">La GPA dans les législations nationales</a>
+                  </div>
+                  <p>
+                    Contrairement à d’autres questions relatives aux droits de l’homme, la GPA a peut-être la
+                    particularité
+                    de provoquer une polarisation grave non seulement entre différents pays, régions culturelles et
+                    orientations politiques, mais aussi au sein de ces pays.
+                  </p>
+                  <a href="article-4.html" class="blog-post-action">En savoir plus<i class="fa fa-angle-right"></i></a>
+                </div>
+              </article>
+            <!-- </div> -->
+            <!-- <div class="column"> -->
+              <article class="blog-post">
+                <div class="blog-post-thumb">
+                  <img src="build/img/5.webp" alt="blog-thum" />
+                </div>
+                <div class="blog-post-content">
+                  <div class="blog-post-tag">
+                  </div>
+                  <div class="blog-post-title">
+                    <a href="article-5.html">La GPA en droit international</a>
+                  </div>
+                  <p>
+                    Au niveau supranational également, les mentions explicites de la GPA sont pour la plupart
+                    inexistantes,
+                    mais plusieurs mécanismes de droit international indirectement liés sont souvent cités pour
+                    justifier
+                    des lois nationales restrictives.
+                  </p>
+                  <a href="article-5.html" class="blog-post-action">En savoir plus<i class="fa fa-angle-right"></i></a>
+                </div>
+              </article>
+              <article class="blog-post">
+                <div class="blog-post-thumb">
+                  <img src="build/img/6.webp" alt="blog-thum" />
+                </div>
+                <div class="blog-post-content">
+                  <div class="blog-post-tag">
+                  </div>
+                  <div class="blog-post-title">
+                    <a href="article-6.html">Types d'adoption en France</a>
+                  </div>
+                  <p>
+                    La gestation pour autrui (GPA) solidaire —ou GSS, de son sigle en espagnol— est une initiative
+                    innovante, exclusivement facilitée par FertiHaus/BabyMedic. En soi, il s’agit d’un processus de GPA
+                    comme tout autre, mais avec une éthique et une finalité différentes.
+                  </p>
+                  <a href="article-6.html" class="blog-post-action">En savoir plus<i class="fa fa-angle-right"></i></a>
+                </div>
+              </article>
+            <!-- </div> -->
           </div>
         </div>
       </div>
     </div>
   </section>
-
-
 
   <footer>
   </footer>
