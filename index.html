@@ -639,2474 +639,2344 @@
 
   <section class="table-section">
     <div class="panel">
-      <div class="input-group">
-        <label for="searchBox">Rechercher par pays:</label>
-        <input type="text" id="myInput" onkeyup="myFunction()" placeholder="France...">
+      <ul class="container nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="afrique-tab" data-bs-toggle="tab" data-bs-target="#afrique" type="button"
+            role="tab" aria-controls="afrique" aria-selected="true" onclick="init1()">Afrique</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="amerique-tab" data-bs-toggle="tab" data-bs-target="#amerique" type="button"
+            role="tab" aria-controls="amerique" aria-selected="false" onclick="init2()">Amérique</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="asie-tab" data-bs-toggle="tab" data-bs-target="#asie" type="button" role="tab"
+            aria-controls="asie" aria-selected="false" onclick="init3()">Asie</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="europe-tab" data-bs-toggle="tab" data-bs-target="#europe" type="button" role="tab"
+            aria-controls="europe" aria-selected="false" onclick="init4()">Europe</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="oceanie-tab" data-bs-toggle="tab" data-bs-target="#oceanie" type="button"
+            role="tab" aria-controls="oceanie" aria-selected="false" onclick="init5()">Océanie</button>
+        </li>
+      </ul>
+    </div>
+    <div class="tab-pane fade show active" id="afrique" role="tabpanel" aria-labelledby="afrique-tab">
+      <div class="panel">
+        <div class="input-group">
+          <label for="searchBox">Rechercher par pays:</label>
+          <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Afrique du Sud...">
+        </div>
+      </div>
+      <div id="table-scroll" class="content table-responsive table-full-width">
+        <table class="table table-hover myTable" id="myTable">
+          <tr class="header">
+            <td>Pays</td>
+            <td>Altruiste?</td>
+            <td>Commerciale?</td>
+            <td>Ouverte aux non mariés?</td>
+            <td>Ouverte aux non-résidents ET étrangers?</td>
+            <td>Ouverte aux couples du même sexe?</td>
+            <td>Ouverte aux citoyens à l&#39;étranger?</td>
+            <td>Adoption homoparentale</td>
+            <td>Adoption par le deuxième parent</td>
+          </tr>
+          <tr>
+            <td>Afrique du Sud</td>
+            <td>OUI</td>
+            <td>NON</td>
+            <td>OUI</td>
+            <td>NON</td>
+            <td>OUI</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>OUI</td>
+            <td>OUI</td>
+          </tr>
+          <tr>
+            <td>Algérie</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>Angola</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>Bénin</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>Botswana</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>Burkina Faso</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>Burundi</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>Cabo Verde (Cap Vert)</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>Cameroun</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>Comores</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>Congo</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>Côte D&#39;Ivoire</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>Djibouti</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>Égypte</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>Érythrée</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>Eswatini</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>Éthiopie</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>Gabon</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>Gambie</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>Ghana</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>Guinée</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>Guinée Bissau</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>Guinée équatoriale</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>Kenya</td>
+            <td>PERMISE DE FACTO</td>
+            <td>PERMISE DE FACTO</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON</td>
+            <td>NON</td>
+          </tr>
+          <tr>
+            <td>Lesotho</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>Libéria</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>Libye</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>Madagascar</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>Malawi</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>Mali</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>Maroc</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>Maurice</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>Mauritanie</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>Mozambique</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>Namibie</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>Niger</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>Nigéria</td>
+            <td>PERMISE DE FACTO</td>
+            <td>BIENTÔT INTERDITE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON</td>
+            <td>NON</td>
+          </tr>
+          <tr>
+            <td>Ouganda</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>République centrafricaine</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>République démocratique du Congo</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>Rwanda</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>Sao Tomé-et-Principe</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>Sénégal</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>Seychelles</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>Sierra Leone</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>Somalie</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>Soudan</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>Soudan du Sud</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>Tanzanie</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>Tchad</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>Togo</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>Tunisie</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>Zambie</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>Zimbabwe</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+        </table>
       </div>
     </div>
-    <div id="table-scroll" class="table-scroll container-table">
-      <table id="myTable" class="main-table">
-        <tr class="header">
-          <td>Continent</td>
-          <td>Pays</td>
-          <td>Altruiste?</td>
-          <td>Commerciale?</td>
-          <td>Ouverte aux non mariés?</td>
-          <td>Ouverte aux non-résidents ET étrangers?</td>
-          <td>Ouverte aux couples du même sexe?</td>
-          <td>Ouverte aux citoyens à l&#39;étranger?</td>
-          <td>Adoption homoparentale</td>
-          <td>Adoption par le deuxième parent</td>
-        </tr>
-        <tr>
-          <td>Afrique</td>
-          <td>Afrique du Sud</td>
-          <td>OUI</td>
-          <td>NON</td>
-          <td>OUI</td>
-          <td>NON</td>
-          <td>OUI</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>OUI</td>
-          <td>OUI</td>
-        </tr>
-        <tr>
-          <td>Afrique</td>
-          <td>Algérie</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Afrique</td>
-          <td>Angola</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Afrique</td>
-          <td>Bénin</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Afrique</td>
-          <td>Botswana</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Afrique</td>
-          <td>Burkina Faso</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Afrique</td>
-          <td>Burundi</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Afrique</td>
-          <td>Cabo Verde (Cap Vert)</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Afrique</td>
-          <td>Cameroun</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Afrique</td>
-          <td>Comores</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Afrique</td>
-          <td>Congo</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Afrique</td>
-          <td>Côte D&#39;Ivoire</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Afrique</td>
-          <td>Djibouti</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Afrique</td>
-          <td>Égypte</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Afrique</td>
-          <td>Érythrée</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Afrique</td>
-          <td>Eswatini</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Afrique</td>
-          <td>Éthiopie</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Afrique</td>
-          <td>Gabon</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Afrique</td>
-          <td>Gambie</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Afrique</td>
-          <td>Ghana</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Afrique</td>
-          <td>Guinée</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Afrique</td>
-          <td>Guinée Bissau</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Afrique</td>
-          <td>Guinée équatoriale</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Afrique</td>
-          <td>Kenya</td>
-          <td>PERMISE DE FACTO</td>
-          <td>PERMISE DE FACTO</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON</td>
-          <td>NON</td>
-        </tr>
-        <tr>
-          <td>Afrique</td>
-          <td>Lesotho</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Afrique</td>
-          <td>Libéria</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Afrique</td>
-          <td>Libye</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Afrique</td>
-          <td>Madagascar</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Afrique</td>
-          <td>Malawi</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Afrique</td>
-          <td>Mali</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Afrique</td>
-          <td>Maroc</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Afrique</td>
-          <td>Maurice</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Afrique</td>
-          <td>Mauritanie</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Afrique</td>
-          <td>Mozambique</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Afrique</td>
-          <td>Namibie</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Afrique</td>
-          <td>Niger</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Afrique</td>
-          <td>Nigéria</td>
-          <td>PERMISE DE FACTO</td>
-          <td>BIENTÔT INTERDITE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON</td>
-          <td>NON</td>
-        </tr>
-        <tr>
-          <td>Afrique</td>
-          <td>Ouganda</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Afrique</td>
-          <td>République centrafricaine</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Afrique</td>
-          <td>République démocratique du Congo</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Afrique</td>
-          <td>Rwanda</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Afrique</td>
-          <td>Sao Tomé-et-Principe</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Afrique</td>
-          <td>Sénégal</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Afrique</td>
-          <td>Seychelles</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Afrique</td>
-          <td>Sierra Leone</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Afrique</td>
-          <td>Somalie</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Afrique</td>
-          <td>Soudan</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Afrique</td>
-          <td>Soudan du Sud</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Afrique</td>
-          <td>Tanzanie</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Afrique</td>
-          <td>Tchad</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Afrique</td>
-          <td>Togo</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Afrique</td>
-          <td>Tunisie</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Afrique</td>
-          <td>Zambie</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Afrique</td>
-          <td>Zimbabwe</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Amérique</td>
-          <td>Antigua-et- Barbuda</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Amérique</td>
-          <td>Argentine</td>
-          <td>PERMISE DE FACTO</td>
-          <td>PERMISE DE FACTO</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>LÉGISLATIONS CONTRADICTOIRES</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>OUI</td>
-          <td>OUI</td>
-        </tr>
-        <tr>
-          <td>Amérique</td>
-          <td>Bahamas</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Amérique</td>
-          <td>Barbade</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Amérique</td>
-          <td>Belize</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Amérique</td>
-          <td>Bolivie</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON</td>
-          <td>NON</td>
-        </tr>
-        <tr>
-          <td>Amérique</td>
-          <td>Brésil</td>
-          <td>CONSANGUINE UNIQUEMENT</td>
-          <td>NON</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>OUI</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>OUI</td>
-          <td>OUI</td>
-        </tr>
-        <tr>
-          <td>Amérique</td>
-          <td>Canada</td>
-          <td>OUI</td>
-          <td>NON</td>
-          <td>OUI</td>
-          <td>OUI</td>
-          <td>OUI</td>
-          <td>AVEC DES RÉSERVES</td>
-          <td>OUI</td>
-          <td>OUI</td>
-        </tr>
-        <tr>
-          <td>Amérique</td>
-          <td>Chili</td>
-          <td>BIENTÔT INTERDITE</td>
-          <td>BIENTÔT INTERDITE</td>
-          <td>BIENTÔT INTERDITE</td>
-          <td>BIENTÔT INTERDITE</td>
-          <td>BIENTÔT INTERDITE</td>
-          <td>BIENTÔT INTERDITE</td>
-          <td>OUI</td>
-          <td>OUI</td>
-        </tr>
-        <tr>
-          <td>Amérique</td>
-          <td>Colombie</td>
-          <td>PERMISE DE FACTO</td>
-          <td>INTERDITE DE FACTO</td>
-          <td>PERMISE DE FACTO</td>
-          <td>PERMISE DE FACTO</td>
-          <td>PERMISE DE FACTO</td>
-          <td>PERMISE DE FACTO</td>
-          <td>OUI</td>
-          <td>OUI</td>
-        </tr>
-        <tr>
-          <td>Amérique</td>
-          <td>Costa Rica</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>OUI</td>
-          <td>OUI</td>
-        </tr>
-        <tr>
-          <td>Amérique</td>
-          <td>Cuba</td>
-          <td>OUI</td>
-          <td>NON</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>OUI</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>OUI</td>
-          <td>OUI</td>
-        </tr>
-        <tr>
-          <td>Amérique</td>
-          <td>Dominique</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Amérique</td>
-          <td>El Salvador</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON</td>
-          <td>NON</td>
-        </tr>
-        <tr>
-          <td>Amérique</td>
-          <td>Équateur</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON</td>
-          <td>NON</td>
-        </tr>
-        <tr>
-          <td>Amérique</td>
-          <td>États-Unis d&#39;Amérique</td>
-          <td>DIFFÈRE PAR ÉTAT</td>
-          <td>DIFFÈRE PAR ÉTAT</td>
-          <td>DIFFÈRE PAR ÉTAT</td>
-          <td>DIFFÈRE PAR ÉTAT</td>
-          <td>DIFFÈRE PAR ÉTAT</td>
-          <td>DIFFÈRE PAR ÉTAT</td>
-          <td>DIFFÈRE PAR ÉTAT</td>
-          <td>DIFFÈRE PAR ÉTAT</td>
-        </tr>
-        <tr>
-          <td>Amérique</td>
-          <td>Grenade</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Amérique</td>
-          <td>Guatemala</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON</td>
-          <td>NON</td>
-        </tr>
-        <tr>
-          <td>Amérique</td>
-          <td>Guyana</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Amérique</td>
-          <td>Haïti</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON</td>
-          <td>NON</td>
-        </tr>
-        <tr>
-          <td>Amérique</td>
-          <td>Honduras</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON</td>
-          <td>NON</td>
-        </tr>
-        <tr>
-          <td>Amérique</td>
-          <td>Jamaïque</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Amérique</td>
-          <td>Mexique</td>
-          <td>DIFFÈRE PAR ÉTAT</td>
-          <td>DIFFÈRE PAR ÉTAT</td>
-          <td>DIFFÈRE PAR ÉTAT</td>
-          <td>DIFFÈRE PAR ÉTAT</td>
-          <td>DIFFÈRE PAR ÉTAT</td>
-          <td>DIFFÈRE PAR ÉTAT</td>
-          <td>DIFFÈRE PAR ÉTAT</td>
-          <td>DIFFÈRE PAR ÉTAT</td>
-        </tr>
-        <tr>
-          <td>Amérique</td>
-          <td>Nicaragua</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON</td>
-          <td>NON</td>
-        </tr>
-        <tr>
-          <td>Amérique</td>
-          <td>Panama</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON</td>
-          <td>NON</td>
-        </tr>
-        <tr>
-          <td>Amérique</td>
-          <td>Paraguay</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON</td>
-          <td>NON</td>
-        </tr>
-        <tr>
-          <td>Amérique</td>
-          <td>Pérou</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON</td>
-          <td>NON</td>
-        </tr>
-        <tr>
-          <td>Amérique</td>
-          <td>République dominicaine</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON</td>
-          <td>NON</td>
-        </tr>
-        <tr>
-          <td>Amérique</td>
-          <td>Saint-Christophe-et-Niévès</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Amérique</td>
-          <td>Saint-Vincent-et- les-Grenadines</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Amérique</td>
-          <td>Sainte-Lucie</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Amérique</td>
-          <td>Suriname</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Amérique</td>
-          <td>Trinité-et-Tobago</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Amérique</td>
-          <td>Uruguay</td>
-          <td>CONSANGUINE UNIQUEMENT</td>
-          <td>NON</td>
-          <td>OUI</td>
-          <td>OUI</td>
-          <td>NON</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>OUI</td>
-          <td>OUI</td>
-        </tr>
-        <tr>
-          <td>Amérique</td>
-          <td>Venezuela</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON</td>
-          <td>NON</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Asie</td>
-          <td>Afghanistan</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Asie</td>
-          <td>Arabie saoudite</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON</td>
-          <td>NON</td>
-        </tr>
-        <tr>
-          <td>Asie</td>
-          <td>Arménie</td>
-          <td>OUI</td>
-          <td>OUI</td>
-          <td>NON</td>
-          <td>OUI</td>
-          <td>NON</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON</td>
-          <td>NON</td>
-        </tr>
-        <tr>
-          <td>Asie</td>
-          <td>Azerbaïdjan</td>
-          <td>PERMISE DE FACTO</td>
-          <td>PERMISE DE FACTO</td>
-          <td>NON</td>
-          <td>PERMISE DE FACTO</td>
-          <td>NON</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON</td>
-          <td>NON</td>
-        </tr>
-        <tr>
-          <td>Asie</td>
-          <td>Bahreïn</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Asie</td>
-          <td>Bangladesh</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Asie</td>
-          <td>Bhoutan</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Asie</td>
-          <td>Brunei Darussalam</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Asie</td>
-          <td>Cambodge</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON</td>
-          <td>NON</td>
-        </tr>
-        <tr>
-          <td>Asie</td>
-          <td>Chine</td>
-          <td>LÉGISLATIONS CONTRADICTOIRES</td>
-          <td>LÉGISLATIONS CONTRADICTOIRES</td>
-          <td>LÉGISLATIONS CONTRADICTOIRES</td>
-          <td>LÉGISLATIONS CONTRADICTOIRES</td>
-          <td>NON</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON</td>
-          <td>NON</td>
-        </tr>
-        <tr>
-          <td>Asie</td>
-          <td>Corée du Nord</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Asie</td>
-          <td>Corée du Sud</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>PERMISE DE FACTO</td>
-          <td>NON</td>
-          <td>NON</td>
-        </tr>
-        <tr>
-          <td>Asie</td>
-          <td>Émirats arabes unis</td>
-          <td>PERMISE DE FACTO</td>
-          <td>PERMISE DE FACTO</td>
-          <td>OUI</td>
-          <td>OUI</td>
-          <td>NON</td>
-          <td>PERMISE DE FACTO</td>
-          <td>NON</td>
-          <td>NON</td>
-        </tr>
-        <tr>
-          <td>Asie</td>
-          <td>Géorgie</td>
-          <td>OUI</td>
-          <td>BIENTÔT INTERDITE</td>
-          <td>NON</td>
-          <td>BIENTÔT INTERDITE</td>
-          <td>NON</td>
-          <td>PERMISE DE FACTO</td>
-          <td>NON</td>
-          <td>NON</td>
-        </tr>
-        <tr>
-          <td>Asie</td>
-          <td>Hong Kong</td>
-          <td>OUI</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>PERMISE DE FACTO</td>
-          <td>NON</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON</td>
-          <td>OUI</td>
-        </tr>
-        <tr>
-          <td>Asie</td>
-          <td>Inde</td>
-          <td>OUI</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>PERMISE DE FACTO</td>
-          <td>NON</td>
-          <td>NON</td>
-        </tr>
-        <tr>
-          <td>Asie</td>
-          <td>Indonésie</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Asie</td>
-          <td>Iran</td>
-          <td>PERMISE DE FACTO</td>
-          <td>PERMISE DE FACTO</td>
-          <td>NON</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON</td>
-          <td>PERMISE DE FACTO</td>
-          <td>NON</td>
-          <td>NON</td>
-        </tr>
-        <tr>
-          <td>Asie</td>
-          <td>Iraq</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Asie</td>
-          <td>Israël</td>
-          <td>OUI</td>
-          <td>NON</td>
-          <td>OUI</td>
-          <td>OUI</td>
-          <td>OUI</td>
-          <td>AVEC DES RÉSERVES</td>
-          <td>OUI</td>
-          <td>OUI</td>
-        </tr>
-        <tr>
-          <td>Asie</td>
-          <td>Japon</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>INTERDITE DE FACTO</td>
-          <td>NON</td>
-          <td>NON</td>
-        </tr>
-        <tr>
-          <td>Asie</td>
-          <td>Jordanie</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Asie</td>
-          <td>Kazakhstan</td>
-          <td>OUI</td>
-          <td>OUI</td>
-          <td>NON</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON</td>
-          <td>PERMISE DE FACTO</td>
-          <td>NON</td>
-          <td>NON</td>
-        </tr>
-        <tr>
-          <td>Asie</td>
-          <td>Kirghizistan</td>
-          <td>OUI</td>
-          <td>OUI</td>
-          <td>OUI</td>
-          <td>NON</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>PERMISE DE FACTO</td>
-          <td>NON</td>
-          <td>NON</td>
-        </tr>
-        <tr>
-          <td>Asie</td>
-          <td>Koweït</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Asie</td>
-          <td>Laos</td>
-          <td>CONSANGUINE UNIQUEMENT</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON</td>
-          <td>PERMISE DE FACTO</td>
-          <td>NON</td>
-          <td>NON</td>
-        </tr>
-        <tr>
-          <td>Asie</td>
-          <td>Liban</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>INTERDITE DE FACTO</td>
-          <td>NON</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON</td>
-          <td>NON</td>
-        </tr>
-        <tr>
-          <td>Asie</td>
-          <td>Macao</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON</td>
-          <td>NON</td>
-        </tr>
-        <tr>
-          <td>Asie</td>
-          <td>Malaisie</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Asie</td>
-          <td>Maldives</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Asie</td>
-          <td>Mongolie</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Asie</td>
-          <td>Myanmar</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Asie</td>
-          <td>Népal</td>
-          <td>OUI</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>PERMISE DE FACTO</td>
-          <td>NON</td>
-          <td>NON</td>
-        </tr>
-        <tr>
-          <td>Asie</td>
-          <td>Oman</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Asie</td>
-          <td>Ouzbékistan</td>
-          <td>INTERDITE DE FACTO</td>
-          <td>INTERDITE DE FACTO</td>
-          <td>INTERDITE DE FACTO</td>
-          <td>INTERDITE DE FACTO</td>
-          <td>NON</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON</td>
-          <td>NON</td>
-        </tr>
-        <tr>
-          <td>Asie</td>
-          <td>Pakistan</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>PERMISE DE FACTO</td>
-          <td>NON</td>
-          <td>NON</td>
-        </tr>
-        <tr>
-          <td>Asie</td>
-          <td>Palestine</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Asie</td>
-          <td>Philippines</td>
-          <td>PERMISE DE FACTO</td>
-          <td>PERMISE DE FACTO</td>
-          <td>PERMISE DE FACTO</td>
-          <td>PERMISE DE FACTO</td>
-          <td>PERMISE DE FACTO</td>
-          <td>PERMISE DE FACTO</td>
-          <td>NON</td>
-          <td>NON</td>
-        </tr>
-        <tr>
-          <td>Asie</td>
-          <td>Qatar</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Asie</td>
-          <td>Singapour</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Asie</td>
-          <td>Sri Lanka</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Asie</td>
-          <td>Syrie</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Asie</td>
-          <td>Tadjikistan</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Asie</td>
-          <td>Taïwan</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>PERMISE DE FACTO</td>
-          <td>OUI</td>
-          <td>OUI</td>
-        </tr>
-        <tr>
-          <td>Asie</td>
-          <td>Thaïlande</td>
-          <td>OUI</td>
-          <td>NON</td>
-          <td>CONSANGUINE UNIQUEMENT</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>PERMISE DE FACTO</td>
-          <td>NON</td>
-          <td>NON</td>
-        </tr>
-        <tr>
-          <td>Asie</td>
-          <td>Timor-Leste</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Asie</td>
-          <td>Turquie</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>INTERDITE DE FACTO</td>
-          <td>NON</td>
-          <td>NON</td>
-        </tr>
-        <tr>
-          <td>Asie</td>
-          <td>Turkménistan</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Asie</td>
-          <td>Viêt Nam</td>
-          <td>CONSANGUINE UNIQUEMENT</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON</td>
-          <td>PERMISE DE FACTO</td>
-          <td>NON</td>
-          <td>NON</td>
-        </tr>
-        <tr>
-          <td>Asie</td>
-          <td>Yémen</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Europe</td>
-          <td>Albanie</td>
-          <td>PERMISE DE FACTO</td>
-          <td>PERMISE DE FACTO</td>
-          <td>PERMISE DE FACTO</td>
-          <td>PERMISE DE FACTO</td>
-          <td>BIENTÔT INTERDITE</td>
-          <td>PERMISE DE FACTO</td>
-          <td>NON</td>
-          <td>NON</td>
-        </tr>
-        <tr>
-          <td>Europe</td>
-          <td>Allemagne</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>PERMISE DE FACTO</td>
-          <td>OUI</td>
-          <td>OUI</td>
-        </tr>
-        <tr>
-          <td>Europe</td>
-          <td>Andorre</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>OUI</td>
-          <td>OUI</td>
-        </tr>
-        <tr>
-          <td>Europe</td>
-          <td>Autriche</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>PERMISE DE FACTO</td>
-          <td>OUI</td>
-          <td>OUI</td>
-        </tr>
-        <tr>
-          <td>Europe</td>
-          <td>Bélarus / Biélorussie</td>
-          <td>OUI</td>
-          <td>OUI</td>
-          <td>AVEC DES RÉSERVES</td>
-          <td>AVEC DES RÉSERVES</td>
-          <td>AVEC DES RÉSERVES</td>
-          <td>PERMISE DE FACTO</td>
-          <td>NON</td>
-          <td>NON</td>
-        </tr>
-        <tr>
-          <td>Europe</td>
-          <td>Belgique</td>
-          <td>PERMISE DE FACTO</td>
-          <td>NON</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON</td>
-          <td>PERMISE DE FACTO</td>
-          <td>OUI</td>
-          <td>OUI</td>
-        </tr>
-        <tr>
-          <td>Europe</td>
-          <td>Bosnie-Herzégovine</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON</td>
-          <td>NON</td>
-        </tr>
-        <tr>
-          <td>Europe</td>
-          <td>Bulgarie</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON</td>
-          <td>NON</td>
-        </tr>
-        <tr>
-          <td>Europe</td>
-          <td>Chypre</td>
-          <td>AVEC DES RÉSERVES</td>
-          <td>NON</td>
-          <td>AVEC DES RÉSERVES</td>
-          <td>AVEC DES RÉSERVES</td>
-          <td>AVEC DES RÉSERVES</td>
-          <td>PERMISE DE FACTO</td>
-          <td>NON</td>
-          <td>NON</td>
-        </tr>
-        <tr>
-          <td>Europe</td>
-          <td>Chypre du Nord</td>
-          <td>OUI</td>
-          <td>OUI</td>
-          <td>OUI</td>
-          <td>OUI</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON</td>
-          <td>NON</td>
-        </tr>
-        <tr>
-          <td>Europe</td>
-          <td>Croatie</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>OUI</td>
-          <td>OUI</td>
-        </tr>
-        <tr>
-          <td>Europe</td>
-          <td>Danemark</td>
-          <td>INTERDITE DE FACTO</td>
-          <td>INTERDITE DE FACTO</td>
-          <td>INTERDITE DE FACTO</td>
-          <td>INTERDITE DE FACTO</td>
-          <td>INTERDITE DE FACTO</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>OUI</td>
-          <td>OUI</td>
-        </tr>
-        <tr>
-          <td>Europe</td>
-          <td>Espagne</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>PERMISE DE FACTO</td>
-          <td>OUI</td>
-          <td>OUI</td>
-        </tr>
-        <tr>
-          <td>Europe</td>
-          <td>Estonie</td>
-          <td>INTERDITE DE FACTO</td>
-          <td>INTERDITE DE FACTO</td>
-          <td>INTERDITE DE FACTO</td>
-          <td>INTERDITE DE FACTO</td>
-          <td>INTERDITE DE FACTO</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>OUI</td>
-          <td>OUI</td>
-        </tr>
-        <tr>
-          <td>Europe</td>
-          <td>Finlande</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>PERMISE DE FACTO</td>
-          <td>OUI</td>
-          <td>OUI</td>
-        </tr>
-        <tr>
-          <td>Europe</td>
-          <td>France</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>PERMISE DE FACTO</td>
-          <td>OUI</td>
-          <td>OUI</td>
-        </tr>
-        <tr>
-          <td>Europe</td>
-          <td>Grèce</td>
-          <td>OUI</td>
-          <td>NON</td>
-          <td>OUI</td>
-          <td>OUI</td>
-          <td>OUI</td>
-          <td>PERMISE DE FACTO</td>
-          <td>OUI</td>
-          <td>OUI</td>
-        </tr>
-        <tr>
-          <td>Europe</td>
-          <td>Hongrie</td>
-          <td>INTERDITE DE FACTO</td>
-          <td>INTERDITE DE FACTO</td>
-          <td>INTERDITE DE FACTO</td>
-          <td>INTERDITE DE FACTO</td>
-          <td>NON</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON</td>
-          <td>NON</td>
-        </tr>
-        <tr>
-          <td>Europe</td>
-          <td>Irlande</td>
-          <td>OUI</td>
-          <td>NON</td>
-          <td>OUI</td>
-          <td>OUI</td>
-          <td>NON</td>
-          <td>AVEC DES RÉSERVES</td>
-          <td>OUI</td>
-          <td>OUI</td>
-        </tr>
-        <tr>
-          <td>Europe</td>
-          <td>Islande</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>AVEC DES RÉSERVES</td>
-          <td>OUI</td>
-          <td>OUI</td>
-        </tr>
-        <tr>
-          <td>Europe</td>
-          <td>Italie</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON</td>
-        </tr>
-        <tr>
-          <td>Europe</td>
-          <td>Kosovo</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON</td>
-          <td>NON</td>
-        </tr>
-        <tr>
-          <td>Europe</td>
-          <td>Lettonie</td>
-          <td>PERMISE DE FACTO</td>
-          <td>INTERDITE DE FACTO</td>
-          <td>AVEC DES RÉSERVES</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON</td>
-          <td>NON</td>
-        </tr>
-        <tr>
-          <td>Europe</td>
-          <td>Liechtenstein</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>OUI</td>
-          <td>OUI</td>
-        </tr>
-        <tr>
-          <td>Europe</td>
-          <td>Lituanie</td>
-          <td>INTERDITE DE FACTO</td>
-          <td>INTERDITE DE FACTO</td>
-          <td>INTERDITE DE FACTO</td>
-          <td>INTERDITE DE FACTO</td>
-          <td>NON</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON</td>
-          <td>NON</td>
-        </tr>
-        <tr>
-          <td>Europe</td>
-          <td>Luxembourg</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>PERMISE DE FACTO</td>
-          <td>OUI</td>
-          <td>OUI</td>
-        </tr>
-        <tr>
-          <td>Europe</td>
-          <td>Macédoine du Nord</td>
-          <td>OUI</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON</td>
-          <td>NON</td>
-        </tr>
-        <tr>
-          <td>Europe</td>
-          <td>Malte</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>PERMISE DE FACTO</td>
-          <td>OUI</td>
-          <td>OUI</td>
-        </tr>
-        <tr>
-          <td>Europe</td>
-          <td>Moldavie</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON</td>
-          <td>NON</td>
-        </tr>
-        <tr>
-          <td>Europe</td>
-          <td>Monaco</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON</td>
-          <td>NON</td>
-        </tr>
-        <tr>
-          <td>Europe</td>
-          <td>Monténégro</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON</td>
-          <td>NON</td>
-        </tr>
-        <tr>
-          <td>Europe</td>
-          <td>Norvège</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>OUI</td>
-          <td>OUI</td>
-        </tr>
-        <tr>
-          <td>Europe</td>
-          <td>Pays-Bas</td>
-          <td>OUI</td>
-          <td>INTERDITE DE FACTO</td>
-          <td>OUI</td>
-          <td>OUI</td>
-          <td>OUI</td>
-          <td>OUI</td>
-          <td>OUI</td>
-          <td>OUI</td>
-        </tr>
-        <tr>
-          <td>Europe</td>
-          <td>Pologne</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON</td>
-          <td>NON</td>
-        </tr>
-        <tr>
-          <td>Europe</td>
-          <td>Portugal</td>
-          <td>OUI</td>
-          <td>NON</td>
-          <td>AVEC DES RÉSERVES</td>
-          <td>AVEC DES RÉSERVES</td>
-          <td>NON</td>
-          <td>PERMISE DE FACTO</td>
-          <td>OUI</td>
-          <td>OUI</td>
-        </tr>
-        <tr>
-          <td>Europe</td>
-          <td>Roumanie</td>
-          <td>LÉGISLATIONS CONTRADICTOIRES</td>
-          <td>LÉGISLATIONS CONTRADICTOIRES</td>
-          <td>LÉGISLATIONS CONTRADICTOIRES</td>
-          <td>LÉGISLATIONS CONTRADICTOIRES</td>
-          <td>NON</td>
-          <td>PERMISE DE FACTO</td>
-          <td>NON</td>
-          <td>NON</td>
-        </tr>
-        <tr>
-          <td>Europe</td>
-          <td>Royaume-Uni</td>
-          <td>OUI</td>
-          <td>NON</td>
-          <td>OUI</td>
-          <td>INTERDITE DE FACTO</td>
-          <td>OUI</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>OUI</td>
-          <td>OUI</td>
-        </tr>
-        <tr>
-          <td>Europe</td>
-          <td>Russie</td>
-          <td>OUI</td>
-          <td>OUI</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>PERMISE DE FACTO</td>
-          <td>NON</td>
-          <td>NON</td>
-        </tr>
-        <tr>
-          <td>Europe</td>
-          <td>Saint-Marin</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON</td>
-          <td>OUI</td>
-        </tr>
-        <tr>
-          <td>Europe</td>
-          <td>Serbie</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON</td>
-          <td>NON</td>
-        </tr>
-        <tr>
-          <td>Europe</td>
-          <td>Slovaquie</td>
-          <td>INTERDITE DE FACTO</td>
-          <td>INTERDITE DE FACTO</td>
-          <td>INTERDITE DE FACTO</td>
-          <td>INTERDITE DE FACTO</td>
-          <td>INTERDITE DE FACTO</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON</td>
-          <td>NON</td>
-        </tr>
-        <tr>
-          <td>Europe</td>
-          <td>Slovénie</td>
-          <td>INTERDITE DE FACTO</td>
-          <td>INTERDITE DE FACTO</td>
-          <td>INTERDITE DE FACTO</td>
-          <td>INTERDITE DE FACTO</td>
-          <td>INTERDITE DE FACTO</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>OUI</td>
-          <td>OUI</td>
-        </tr>
-        <tr>
-          <td>Europe</td>
-          <td>Suède</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>OUI</td>
-          <td>OUI</td>
-        </tr>
-        <tr>
-          <td>Europe</td>
-          <td>Suisse</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>OUI</td>
-          <td>OUI</td>
-        </tr>
-        <tr>
-          <td>Europe</td>
-          <td>Tchéquie</td>
-          <td>PERMISE DE FACTO</td>
-          <td>NON</td>
-          <td>PERMISE DE FACTO</td>
-          <td>PERMISE DE FACTO</td>
-          <td>BIENTÔT INTERDITE</td>
-          <td>NON LÉGIFÉRÉE</td>
-          <td>NON</td>
-          <td>NON</td>
-        </tr>
-        <tr>
-          <td>Europe</td>
-          <td>Ukraine</td>
-          <td>OUI</td>
-          <td>OUI</td>
-          <td>OUI</td>
-          <td>PERMISE DE FACTO</td>
-          <td>PERMISE DE FACTO</td>
-          <td>PERMISE DE FACTO</td>
-          <td>NON</td>
-          <td>NON</td>
-        </tr>
-        <tr>
-          <td>Europe</td>
-          <td>Vatican</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Océanie</td>
-          <td>Australie</td>
-          <td>OUI</td>
-          <td>NON</td>
-          <td>OUI</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>NON</td>
-          <td>OUI</td>
-          <td>OUI</td>
-        </tr>
-        <tr>
-          <td>Océanie</td>
-          <td>Fidji</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Océanie</td>
-          <td>Îles Marshall</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Océanie</td>
-          <td>Îles Salomon</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Océanie</td>
-          <td>Kiribati</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Océanie</td>
-          <td>Micronésie</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Océanie</td>
-          <td>Nauru</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Océanie</td>
-          <td>Nouvelle-Zélande</td>
-          <td>OUI</td>
-          <td>NON</td>
-          <td>OUI</td>
-          <td>OUI</td>
-          <td>OUI</td>
-          <td>PERMISE DE FACTO</td>
-          <td>OUI</td>
-          <td>OUI</td>
-        </tr>
-        <tr>
-          <td>Océanie</td>
-          <td>Papouasie- Nouvelle-Guinée</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Océanie</td>
-          <td>Palaos</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Océanie</td>
-          <td>Samoa</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Océanie</td>
-          <td>Tonga</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Océanie</td>
-          <td>Tuvalu</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-        <tr>
-          <td>Océanie</td>
-          <td>Vanuatu</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>INCERTAIN</td>
-          <td>NON</td>
-          <td>INCERTAIN</td>
-        </tr>
-      </table>
+    <div class="tab-pane fade" id="amerique" role="tabpanel" aria-labelledby="amerique-tab">
+      <div class="panel">
+        <div class="input-group">
+          <label for="searchBox">Rechercher par pays:</label>
+          <input type="text" id="myInput2" onkeyup="myFunction2()" placeholder="Antigua-et- Barbuda...">
+        </div>
+      </div>
+      <div id="table-scroll" class="content table-responsive table-full-width">
+        <table class="table table-hover myTable" id="myTable2">
+          <tr class="header">
+            <td>Pays</td>
+            <td>Altruiste?</td>
+            <td>Commerciale?</td>
+            <td>Ouverte aux non mariés?</td>
+            <td>Ouverte aux non-résidents ET étrangers?</td>
+            <td>Ouverte aux couples du même sexe?</td>
+            <td>Ouverte aux citoyens à l&#39;étranger?</td>
+            <td>Adoption homoparentale</td>
+            <td>Adoption par le deuxième parent</td>
+          </tr>
+          <tr>
+            <td>Antigua-et- Barbuda</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>Argentine</td>
+            <td>PERMISE DE FACTO</td>
+            <td>PERMISE DE FACTO</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>LÉGISLATIONS CONTRADICTOIRES</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>OUI</td>
+            <td>OUI</td>
+          </tr>
+          <tr>
+            <td>Bahamas</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>Barbade</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>Belize</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>Bolivie</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON</td>
+            <td>NON</td>
+          </tr>
+          <tr>
+            <td>Brésil</td>
+            <td>CONSANGUINE UNIQUEMENT</td>
+            <td>NON</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>OUI</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>OUI</td>
+            <td>OUI</td>
+          </tr>
+          <tr>
+            <td>Canada</td>
+            <td>OUI</td>
+            <td>NON</td>
+            <td>OUI</td>
+            <td>OUI</td>
+            <td>OUI</td>
+            <td>AVEC DES RÉSERVES</td>
+            <td>OUI</td>
+            <td>OUI</td>
+          </tr>
+          <tr>
+            <td>Chili</td>
+            <td>BIENTÔT INTERDITE</td>
+            <td>BIENTÔT INTERDITE</td>
+            <td>BIENTÔT INTERDITE</td>
+            <td>BIENTÔT INTERDITE</td>
+            <td>BIENTÔT INTERDITE</td>
+            <td>BIENTÔT INTERDITE</td>
+            <td>OUI</td>
+            <td>OUI</td>
+          </tr>
+          <tr>
+            <td>Colombie</td>
+            <td>PERMISE DE FACTO</td>
+            <td>INTERDITE DE FACTO</td>
+            <td>PERMISE DE FACTO</td>
+            <td>PERMISE DE FACTO</td>
+            <td>PERMISE DE FACTO</td>
+            <td>PERMISE DE FACTO</td>
+            <td>OUI</td>
+            <td>OUI</td>
+          </tr>
+          <tr>
+            <td>Costa Rica</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>OUI</td>
+            <td>OUI</td>
+          </tr>
+          <tr>
+            <td>Cuba</td>
+            <td>OUI</td>
+            <td>NON</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>OUI</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>OUI</td>
+            <td>OUI</td>
+          </tr>
+          <tr>
+            <td>Dominique</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>El Salvador</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON</td>
+            <td>NON</td>
+          </tr>
+          <tr>
+            <td>Équateur</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON</td>
+            <td>NON</td>
+          </tr>
+          <tr>
+            <td>États-Unis d&#39;Amérique</td>
+            <td>DIFFÈRE PAR ÉTAT</td>
+            <td>DIFFÈRE PAR ÉTAT</td>
+            <td>DIFFÈRE PAR ÉTAT</td>
+            <td>DIFFÈRE PAR ÉTAT</td>
+            <td>DIFFÈRE PAR ÉTAT</td>
+            <td>DIFFÈRE PAR ÉTAT</td>
+            <td>DIFFÈRE PAR ÉTAT</td>
+            <td>DIFFÈRE PAR ÉTAT</td>
+          </tr>
+          <tr>
+            <td>Grenade</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>Guatemala</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON</td>
+            <td>NON</td>
+          </tr>
+          <tr>
+            <td>Guyana</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>Haïti</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON</td>
+            <td>NON</td>
+          </tr>
+          <tr>
+            <td>Honduras</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON</td>
+            <td>NON</td>
+          </tr>
+          <tr>
+            <td>Jamaïque</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>Mexique</td>
+            <td>DIFFÈRE PAR ÉTAT</td>
+            <td>DIFFÈRE PAR ÉTAT</td>
+            <td>DIFFÈRE PAR ÉTAT</td>
+            <td>DIFFÈRE PAR ÉTAT</td>
+            <td>DIFFÈRE PAR ÉTAT</td>
+            <td>DIFFÈRE PAR ÉTAT</td>
+            <td>DIFFÈRE PAR ÉTAT</td>
+            <td>DIFFÈRE PAR ÉTAT</td>
+          </tr>
+          <tr>
+            <td>Nicaragua</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON</td>
+            <td>NON</td>
+          </tr>
+          <tr>
+            <td>Panama</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON</td>
+            <td>NON</td>
+          </tr>
+          <tr>
+            <td>Paraguay</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON</td>
+            <td>NON</td>
+          </tr>
+          <tr>
+            <td>Pérou</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON</td>
+            <td>NON</td>
+          </tr>
+          <tr>
+            <td>République dominicaine</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON</td>
+            <td>NON</td>
+          </tr>
+          <tr>
+            <td>Saint-Christophe-et-Niévès</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>Saint-Vincent-et- les-Grenadines</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>Sainte-Lucie</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>Suriname</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>Trinité-et-Tobago</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>Uruguay</td>
+            <td>CONSANGUINE UNIQUEMENT</td>
+            <td>NON</td>
+            <td>OUI</td>
+            <td>OUI</td>
+            <td>NON</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>OUI</td>
+            <td>OUI</td>
+          </tr>
+          <tr>
+            <td>Venezuela</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON</td>
+            <td>NON</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="tab-pane fade" id="asie" role="tabpanel" aria-labelledby="asie-tab">
+      <div class="panel">
+        <div class="input-group">
+          <label for="searchBox">Rechercher par pays:</label>
+          <input type="text" id="myInput3" onkeyup="myFunction3()" placeholder="Afghanistan...">
+        </div>
+      </div>
+      <div id="table-scroll" class="content table-responsive table-full-width">
+        <table class="table table-hover myTable" id="myTable3">
+          <tr class="header">
+            <td>Pays</td>
+            <td>Altruiste?</td>
+            <td>Commerciale?</td>
+            <td>Ouverte aux non mariés?</td>
+            <td>Ouverte aux non-résidents ET étrangers?</td>
+            <td>Ouverte aux couples du même sexe?</td>
+            <td>Ouverte aux citoyens à l&#39;étranger?</td>
+            <td>Adoption homoparentale</td>
+            <td>Adoption par le deuxième parent</td>
+          </tr>
+          <tr>
+            <td>Afghanistan</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>Arabie saoudite</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON</td>
+            <td>NON</td>
+          </tr>
+          <tr>
+            <td>Arménie</td>
+            <td>OUI</td>
+            <td>OUI</td>
+            <td>NON</td>
+            <td>OUI</td>
+            <td>NON</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON</td>
+            <td>NON</td>
+          </tr>
+          <tr>
+            <td>Azerbaïdjan</td>
+            <td>PERMISE DE FACTO</td>
+            <td>PERMISE DE FACTO</td>
+            <td>NON</td>
+            <td>PERMISE DE FACTO</td>
+            <td>NON</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON</td>
+            <td>NON</td>
+          </tr>
+          <tr>
+            <td>Bahreïn</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>Bangladesh</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>Bhoutan</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>Brunei Darussalam</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>Cambodge</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON</td>
+            <td>NON</td>
+          </tr>
+          <tr>
+            <td>Chine</td>
+            <td>LÉGISLATIONS CONTRADICTOIRES</td>
+            <td>LÉGISLATIONS CONTRADICTOIRES</td>
+            <td>LÉGISLATIONS CONTRADICTOIRES</td>
+            <td>LÉGISLATIONS CONTRADICTOIRES</td>
+            <td>NON</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON</td>
+            <td>NON</td>
+          </tr>
+          <tr>
+            <td>Corée du Nord</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>Corée du Sud</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>PERMISE DE FACTO</td>
+            <td>NON</td>
+            <td>NON</td>
+          </tr>
+          <tr>
+            <td>Émirats arabes unis</td>
+            <td>PERMISE DE FACTO</td>
+            <td>PERMISE DE FACTO</td>
+            <td>OUI</td>
+            <td>OUI</td>
+            <td>NON</td>
+            <td>PERMISE DE FACTO</td>
+            <td>NON</td>
+            <td>NON</td>
+          </tr>
+          <tr>
+            <td>Géorgie</td>
+            <td>OUI</td>
+            <td>BIENTÔT INTERDITE</td>
+            <td>NON</td>
+            <td>BIENTÔT INTERDITE</td>
+            <td>NON</td>
+            <td>PERMISE DE FACTO</td>
+            <td>NON</td>
+            <td>NON</td>
+          </tr>
+          <tr>
+            <td>Hong Kong</td>
+            <td>OUI</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>PERMISE DE FACTO</td>
+            <td>NON</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON</td>
+            <td>OUI</td>
+          </tr>
+          <tr>
+            <td>Inde</td>
+            <td>OUI</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>PERMISE DE FACTO</td>
+            <td>NON</td>
+            <td>NON</td>
+          </tr>
+          <tr>
+            <td>Indonésie</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>Iran</td>
+            <td>PERMISE DE FACTO</td>
+            <td>PERMISE DE FACTO</td>
+            <td>NON</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON</td>
+            <td>PERMISE DE FACTO</td>
+            <td>NON</td>
+            <td>NON</td>
+          </tr>
+          <tr>
+            <td>Iraq</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>Israël</td>
+            <td>OUI</td>
+            <td>NON</td>
+            <td>OUI</td>
+            <td>OUI</td>
+            <td>OUI</td>
+            <td>AVEC DES RÉSERVES</td>
+            <td>OUI</td>
+            <td>OUI</td>
+          </tr>
+          <tr>
+            <td>Japon</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>INTERDITE DE FACTO</td>
+            <td>NON</td>
+            <td>NON</td>
+          </tr>
+          <tr>
+            <td>Jordanie</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>Kazakhstan</td>
+            <td>OUI</td>
+            <td>OUI</td>
+            <td>NON</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON</td>
+            <td>PERMISE DE FACTO</td>
+            <td>NON</td>
+            <td>NON</td>
+          </tr>
+          <tr>
+            <td>Kirghizistan</td>
+            <td>OUI</td>
+            <td>OUI</td>
+            <td>OUI</td>
+            <td>NON</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>PERMISE DE FACTO</td>
+            <td>NON</td>
+            <td>NON</td>
+          </tr>
+          <tr>
+            <td>Koweït</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>Laos</td>
+            <td>CONSANGUINE UNIQUEMENT</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON</td>
+            <td>PERMISE DE FACTO</td>
+            <td>NON</td>
+            <td>NON</td>
+          </tr>
+          <tr>
+            <td>Liban</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>INTERDITE DE FACTO</td>
+            <td>NON</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON</td>
+            <td>NON</td>
+          </tr>
+          <tr>
+            <td>Macao</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON</td>
+            <td>NON</td>
+          </tr>
+          <tr>
+            <td>Malaisie</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>Maldives</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>Mongolie</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>Myanmar</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>Népal</td>
+            <td>OUI</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>PERMISE DE FACTO</td>
+            <td>NON</td>
+            <td>NON</td>
+          </tr>
+          <tr>
+            <td>Oman</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>Ouzbékistan</td>
+            <td>INTERDITE DE FACTO</td>
+            <td>INTERDITE DE FACTO</td>
+            <td>INTERDITE DE FACTO</td>
+            <td>INTERDITE DE FACTO</td>
+            <td>NON</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON</td>
+            <td>NON</td>
+          </tr>
+          <tr>
+            <td>Pakistan</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>PERMISE DE FACTO</td>
+            <td>NON</td>
+            <td>NON</td>
+          </tr>
+          <tr>
+            <td>Palestine</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>Philippines</td>
+            <td>PERMISE DE FACTO</td>
+            <td>PERMISE DE FACTO</td>
+            <td>PERMISE DE FACTO</td>
+            <td>PERMISE DE FACTO</td>
+            <td>PERMISE DE FACTO</td>
+            <td>PERMISE DE FACTO</td>
+            <td>NON</td>
+            <td>NON</td>
+          </tr>
+          <tr>
+            <td>Qatar</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>Singapour</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>Sri Lanka</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>Syrie</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>Tadjikistan</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>Taïwan</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>PERMISE DE FACTO</td>
+            <td>OUI</td>
+            <td>OUI</td>
+          </tr>
+          <tr>
+            <td>Thaïlande</td>
+            <td>OUI</td>
+            <td>NON</td>
+            <td>CONSANGUINE UNIQUEMENT</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>PERMISE DE FACTO</td>
+            <td>NON</td>
+            <td>NON</td>
+          </tr>
+          <tr>
+            <td>Timor-Leste</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>Turquie</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>INTERDITE DE FACTO</td>
+            <td>NON</td>
+            <td>NON</td>
+          </tr>
+          <tr>
+            <td>Turkménistan</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+          <tr>
+            <td>Viêt Nam</td>
+            <td>CONSANGUINE UNIQUEMENT</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON</td>
+            <td>PERMISE DE FACTO</td>
+            <td>NON</td>
+            <td>NON</td>
+          </tr>
+          <tr>
+            <td>Yémen</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+            <td>NON</td>
+            <td>INCERTAIN</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="tab-pane fade" id="europe" role="tabpanel" aria-labelledby="europe-tab">
+      <div class="panel">
+        <div class="input-group">
+          <label for="searchBox">Rechercher par pays:</label>
+          <input type="text" id="myInput4" onkeyup="myFunction4()" placeholder="Albanie...">
+        </div>
+      </div>
+      <div id="table-scroll" class="content table-responsive table-full-width">
+        <table class="table table-hover myTable" id="myTable4">
+          <tr class="header">
+            <td>Pays</td>
+            <td>Altruiste?</td>
+            <td>Commerciale?</td>
+            <td>Ouverte aux non mariés?</td>
+            <td>Ouverte aux non-résidents ET étrangers?</td>
+            <td>Ouverte aux couples du même sexe?</td>
+            <td>Ouverte aux citoyens à l&#39;étranger?</td>
+            <td>Adoption homoparentale</td>
+            <td>Adoption par le deuxième parent</td>
+          </tr>
+          <tr>
+            <td>Albanie</td>
+            <td>PERMISE DE FACTO</td>
+            <td>PERMISE DE FACTO</td>
+            <td>PERMISE DE FACTO</td>
+            <td>PERMISE DE FACTO</td>
+            <td>BIENTÔT INTERDITE</td>
+            <td>PERMISE DE FACTO</td>
+            <td>NON</td>
+            <td>NON</td>
+          </tr>
+          <tr>
+            <td>Allemagne</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>PERMISE DE FACTO</td>
+            <td>OUI</td>
+            <td>OUI</td>
+          </tr>
+          <tr>
+            <td>Andorre</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>OUI</td>
+            <td>OUI</td>
+          </tr>
+          <tr>
+            <td>Autriche</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>PERMISE DE FACTO</td>
+            <td>OUI</td>
+            <td>OUI</td>
+          </tr>
+          <tr>
+            <td>Bélarus / Biélorussie</td>
+            <td>OUI</td>
+            <td>OUI</td>
+            <td>AVEC DES RÉSERVES</td>
+            <td>AVEC DES RÉSERVES</td>
+            <td>AVEC DES RÉSERVES</td>
+            <td>PERMISE DE FACTO</td>
+            <td>NON</td>
+            <td>NON</td>
+          </tr>
+          <tr>
+            <td>Belgique</td>
+            <td>PERMISE DE FACTO</td>
+            <td>NON</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON</td>
+            <td>PERMISE DE FACTO</td>
+            <td>OUI</td>
+            <td>OUI</td>
+          </tr>
+          <tr>
+            <td>Bosnie-Herzégovine</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON</td>
+            <td>NON</td>
+          </tr>
+          <tr>
+            <td>Bulgarie</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON</td>
+            <td>NON</td>
+          </tr>
+          <tr>
+            <td>Chypre</td>
+            <td>AVEC DES RÉSERVES</td>
+            <td>NON</td>
+            <td>AVEC DES RÉSERVES</td>
+            <td>AVEC DES RÉSERVES</td>
+            <td>AVEC DES RÉSERVES</td>
+            <td>PERMISE DE FACTO</td>
+            <td>NON</td>
+            <td>NON</td>
+          </tr>
+          <tr>
+            <td>Chypre du Nord</td>
+            <td>OUI</td>
+            <td>OUI</td>
+            <td>OUI</td>
+            <td>OUI</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON</td>
+            <td>NON</td>
+          </tr>
+          <tr>
+            <td>Croatie</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>OUI</td>
+            <td>OUI</td>
+          </tr>
+          <tr>
+            <td>Danemark</td>
+            <td>INTERDITE DE FACTO</td>
+            <td>INTERDITE DE FACTO</td>
+            <td>INTERDITE DE FACTO</td>
+            <td>INTERDITE DE FACTO</td>
+            <td>INTERDITE DE FACTO</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>OUI</td>
+            <td>OUI</td>
+          </tr>
+          <tr>
+            <td>Espagne</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>PERMISE DE FACTO</td>
+            <td>OUI</td>
+            <td>OUI</td>
+          </tr>
+          <tr>
+            <td>Estonie</td>
+            <td>INTERDITE DE FACTO</td>
+            <td>INTERDITE DE FACTO</td>
+            <td>INTERDITE DE FACTO</td>
+            <td>INTERDITE DE FACTO</td>
+            <td>INTERDITE DE FACTO</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>OUI</td>
+            <td>OUI</td>
+          </tr>
+          <tr>
+            <td>Finlande</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>PERMISE DE FACTO</td>
+            <td>OUI</td>
+            <td>OUI</td>
+          </tr>
+          <tr>
+            <td>France</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>PERMISE DE FACTO</td>
+            <td>OUI</td>
+            <td>OUI</td>
+          </tr>
+          <tr>
+            <td>Grèce</td>
+            <td>OUI</td>
+            <td>NON</td>
+            <td>OUI</td>
+            <td>OUI</td>
+            <td>OUI</td>
+            <td>PERMISE DE FACTO</td>
+            <td>OUI</td>
+            <td>OUI</td>
+          </tr>
+          <tr>
+            <td>Hongrie</td>
+            <td>INTERDITE DE FACTO</td>
+            <td>INTERDITE DE FACTO</td>
+            <td>INTERDITE DE FACTO</td>
+            <td>INTERDITE DE FACTO</td>
+            <td>NON</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON</td>
+            <td>NON</td>
+          </tr>
+          <tr>
+            <td>Irlande</td>
+            <td>OUI</td>
+            <td>NON</td>
+            <td>OUI</td>
+            <td>OUI</td>
+            <td>NON</td>
+            <td>AVEC DES RÉSERVES</td>
+            <td>OUI</td>
+            <td>OUI</td>
+          </tr>
+          <tr>
+            <td>Islande</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>AVEC DES RÉSERVES</td>
+            <td>OUI</td>
+            <td>OUI</td>
+          </tr>
+          <tr>
+            <td>Italie</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON</td>
+          </tr>
+          <tr>
+            <td>Kosovo</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON</td>
+            <td>NON</td>
+          </tr>
+          <tr>
+            <td>Lettonie</td>
+            <td>PERMISE DE FACTO</td>
+            <td>INTERDITE DE FACTO</td>
+            <td>AVEC DES RÉSERVES</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON</td>
+            <td>NON</td>
+          </tr>
+          <tr>
+            <td>Liechtenstein</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>OUI</td>
+            <td>OUI</td>
+          </tr>
+          <tr>
+            <td>Lituanie</td>
+            <td>INTERDITE DE FACTO</td>
+            <td>INTERDITE DE FACTO</td>
+            <td>INTERDITE DE FACTO</td>
+            <td>INTERDITE DE FACTO</td>
+            <td>NON</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON</td>
+            <td>NON</td>
+          </tr>
+          <tr>
+            <td>Luxembourg</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>PERMISE DE FACTO</td>
+            <td>OUI</td>
+            <td>OUI</td>
+          </tr>
+          <tr>
+            <td>Macédoine du Nord</td>
+            <td>OUI</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON</td>
+            <td>NON</td>
+          </tr>
+          <tr>
+            <td>Malte</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>PERMISE DE FACTO</td>
+            <td>OUI</td>
+            <td>OUI</td>
+          </tr>
+          <tr>
+            <td>Moldavie</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON</td>
+            <td>NON</td>
+          </tr>
+          <tr>
+            <td>Monaco</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON</td>
+            <td>NON</td>
+          </tr>
+          <tr>
+            <td>Monténégro</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON</td>
+            <td>NON</td>
+          </tr>
+          <tr>
+            <td>Norvège</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>OUI</td>
+            <td>OUI</td>
+          </tr>
+          <tr>
+            <td>Pays-Bas</td>
+            <td>OUI</td>
+            <td>INTERDITE DE FACTO</td>
+            <td>OUI</td>
+            <td>OUI</td>
+            <td>OUI</td>
+            <td>OUI</td>
+            <td>OUI</td>
+            <td>OUI</td>
+          </tr>
+          <tr>
+            <td>Pologne</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON</td>
+            <td>NON</td>
+          </tr>
+          <tr>
+            <td>Portugal</td>
+            <td>OUI</td>
+            <td>NON</td>
+            <td>AVEC DES RÉSERVES</td>
+            <td>AVEC DES RÉSERVES</td>
+            <td>NON</td>
+            <td>PERMISE DE FACTO</td>
+            <td>OUI</td>
+            <td>OUI</td>
+          </tr>
+          <tr>
+            <td>Roumanie</td>
+            <td>LÉGISLATIONS CONTRADICTOIRES</td>
+            <td>LÉGISLATIONS CONTRADICTOIRES</td>
+            <td>LÉGISLATIONS CONTRADICTOIRES</td>
+            <td>LÉGISLATIONS CONTRADICTOIRES</td>
+            <td>NON</td>
+            <td>PERMISE DE FACTO</td>
+            <td>NON</td>
+            <td>NON</td>
+          </tr>
+          <tr>
+            <td>Royaume-Uni</td>
+            <td>OUI</td>
+            <td>NON</td>
+            <td>OUI</td>
+            <td>INTERDITE DE FACTO</td>
+            <td>OUI</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>OUI</td>
+            <td>OUI</td>
+          </tr>
+          <tr>
+            <td>Russie</td>
+            <td>OUI</td>
+            <td>OUI</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>PERMISE DE FACTO</td>
+            <td>NON</td>
+            <td>NON</td>
+          </tr>
+          <tr>
+            <td>Saint-Marin</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON</td>
+            <td>OUI</td>
+          </tr>
+          <tr>
+            <td>Serbie</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON</td>
+            <td>NON</td>
+          </tr>
+          <tr>
+            <td>Slovaquie</td>
+            <td>INTERDITE DE FACTO</td>
+            <td>INTERDITE DE FACTO</td>
+            <td>INTERDITE DE FACTO</td>
+            <td>INTERDITE DE FACTO</td>
+            <td>INTERDITE DE FACTO</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON</td>
+            <td>NON</td>
+          </tr>
+          <tr>
+            <td>Slovénie</td>
+            <td>INTERDITE DE FACTO</td>
+            <td>INTERDITE DE FACTO</td>
+            <td>INTERDITE DE FACTO</td>
+            <td>INTERDITE DE FACTO</td>
+            <td>INTERDITE DE FACTO</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>OUI</td>
+            <td>OUI</td>
+          </tr>
+          <tr>
+            <td>Suède</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>OUI</td>
+            <td>OUI</td>
+          </tr>
+          <tr>
+            <td>Suisse</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>OUI</td>
+            <td>OUI</td>
+          </tr>
+          <tr>
+            <td>Tchéquie</td>
+            <td>PERMISE DE FACTO</td>
+            <td>NON</td>
+            <td>PERMISE DE FACTO</td>
+            <td>PERMISE DE FACTO</td>
+            <td>BIENTÔT INTERDITE</td>
+            <td>NON LÉGIFÉRÉE</td>
+            <td>NON</td>
+            <td>NON</td>
+          </tr>
+          <tr>
+            <td>Ukraine</td>
+            <td>OUI</td>
+            <td>OUI</td>
+            <td>OUI</td>
+            <td>PERMISE DE FACTO</td>
+            <td>PERMISE DE FACTO</td>
+            <td>PERMISE DE FACTO</td>
+            <td>NON</td>
+            <td>NON</td>
+          </tr>
+          <tr>
+            <td>Vatican</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON</td>
+            <td>NON</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="tab-pane fade" id="oceanie" role="tabpanel" aria-labelledby="oceanie-tab">
+      <div class="panel">
+        <div class="input-group">
+          <label for="searchBox">Rechercher par pays:</label>
+          <input type="text" id="myInput5" onkeyup="myFunction5()" placeholder="Australie...">
+        </div>
+      </div>
+      <div id="table-scroll" class="content table-responsive table-full-width">
+        <table class="table table-hover myTable" id="myTable5">
+          <tr class="header">
+            <td>Pays</td>
+            <td>Altruiste?</td>
+            <td>Commerciale?</td>
+            <td>Ouverte aux non mariés?</td>
+            <td>Ouverte aux non-résidents ET étrangers?</td>
+            <td>Ouverte aux couples du même sexe?</td>
+            <td>Ouverte aux citoyens à l&#39;étranger?</td>
+            <td>Adoption homoparentale</td>
+            <td>Adoption par le deuxième parent</td>
+          </tr>
+          <tr>
+            <tr>
+              <td>Australie</td>
+              <td>OUI</td>
+              <td>NON</td>
+              <td>OUI</td>
+              <td>NON</td>
+              <td>NON</td>
+              <td>NON</td>
+              <td>OUI</td>
+              <td>OUI</td>
+            </tr>
+            <tr>
+              <td>Fidji</td>
+              <td>INCERTAIN</td>
+              <td>INCERTAIN</td>
+              <td>INCERTAIN</td>
+              <td>INCERTAIN</td>
+              <td>NON</td>
+              <td>INCERTAIN</td>
+              <td>NON</td>
+              <td>INCERTAIN</td>
+            </tr>
+            <tr>
+              <td>Îles Marshall</td>
+              <td>INCERTAIN</td>
+              <td>INCERTAIN</td>
+              <td>INCERTAIN</td>
+              <td>INCERTAIN</td>
+              <td>INCERTAIN</td>
+              <td>INCERTAIN</td>
+              <td>NON</td>
+              <td>INCERTAIN</td>
+            </tr>
+            <tr>
+              <td>Îles Salomon</td>
+              <td>INCERTAIN</td>
+              <td>INCERTAIN</td>
+              <td>INCERTAIN</td>
+              <td>INCERTAIN</td>
+              <td>INCERTAIN</td>
+              <td>INCERTAIN</td>
+              <td>NON</td>
+              <td>INCERTAIN</td>
+            </tr>
+            <tr>
+              <td>Kiribati</td>
+              <td>INCERTAIN</td>
+              <td>INCERTAIN</td>
+              <td>INCERTAIN</td>
+              <td>INCERTAIN</td>
+              <td>NON</td>
+              <td>INCERTAIN</td>
+              <td>NON</td>
+              <td>INCERTAIN</td>
+            </tr>
+            <tr>
+              <td>Micronésie</td>
+              <td>INCERTAIN</td>
+              <td>INCERTAIN</td>
+              <td>INCERTAIN</td>
+              <td>INCERTAIN</td>
+              <td>INCERTAIN</td>
+              <td>INCERTAIN</td>
+              <td>NON</td>
+              <td>INCERTAIN</td>
+            </tr>
+            <tr>
+              <td>Nauru</td>
+              <td>INCERTAIN</td>
+              <td>INCERTAIN</td>
+              <td>INCERTAIN</td>
+              <td>INCERTAIN</td>
+              <td>INCERTAIN</td>
+              <td>INCERTAIN</td>
+              <td>NON</td>
+              <td>INCERTAIN</td>
+            </tr>
+            <tr>
+              <td>Nouvelle-Zélande</td>
+              <td>OUI</td>
+              <td>NON</td>
+              <td>OUI</td>
+              <td>OUI</td>
+              <td>OUI</td>
+              <td>PERMISE DE FACTO</td>
+              <td>OUI</td>
+              <td>OUI</td>
+            </tr>
+            <tr>
+              <td>Papouasie- Nouvelle-Guinée</td>
+              <td>INCERTAIN</td>
+              <td>INCERTAIN</td>
+              <td>INCERTAIN</td>
+              <td>INCERTAIN</td>
+              <td>NON</td>
+              <td>INCERTAIN</td>
+              <td>NON</td>
+              <td>INCERTAIN</td>
+            </tr>
+            <tr>
+              <td>Palaos</td>
+              <td>INCERTAIN</td>
+              <td>INCERTAIN</td>
+              <td>INCERTAIN</td>
+              <td>INCERTAIN</td>
+              <td>INCERTAIN</td>
+              <td>INCERTAIN</td>
+              <td>NON</td>
+              <td>INCERTAIN</td>
+            </tr>
+            <tr>
+              <td>Samoa</td>
+              <td>INCERTAIN</td>
+              <td>INCERTAIN</td>
+              <td>INCERTAIN</td>
+              <td>INCERTAIN</td>
+              <td>NON</td>
+              <td>INCERTAIN</td>
+              <td>NON</td>
+              <td>INCERTAIN</td>
+            </tr>
+            <tr>
+              <td>Tonga</td>
+              <td>INCERTAIN</td>
+              <td>INCERTAIN</td>
+              <td>INCERTAIN</td>
+              <td>INCERTAIN</td>
+              <td>NON</td>
+              <td>INCERTAIN</td>
+              <td>NON</td>
+              <td>INCERTAIN</td>
+            </tr>
+            <tr>
+              <td>Tuvalu</td>
+              <td>INCERTAIN</td>
+              <td>INCERTAIN</td>
+              <td>INCERTAIN</td>
+              <td>INCERTAIN</td>
+              <td>INCERTAIN</td>
+              <td>INCERTAIN</td>
+              <td>NON</td>
+              <td>INCERTAIN</td>
+            </tr>
+            <tr>
+              <td>Vanuatu</td>
+              <td>INCERTAIN</td>
+              <td>INCERTAIN</td>
+              <td>INCERTAIN</td>
+              <td>INCERTAIN</td>
+              <td>INCERTAIN</td>
+              <td>INCERTAIN</td>
+              <td>NON</td>
+              <td>INCERTAIN</td>
+            </tr>
+        </table>
+      </div>
     </div>
   </section>
 
@@ -3129,6 +2999,30 @@
     </div>
   </section>
 
+  <section class="news">
+    <div class="container">
+      <div class="news-img">
+        <img src="build/img/news_1.webp" alt="news1">
+        <h3>Conoces la Gestacion Solidaria , apuntate</h3>
+        <a href="https://fr.surveymonkey.com/r/MGHRGQ8">Leer más...</a>
+      </div>
+    </div>
+    <div class="container">
+      <div class="news-img">
+        <img src="build/img/news_2.webp" alt="news1">
+        <h3>Conoces la Gestacion Solidaria , apuntate</h3>
+        <a href="#">Leer más...</a>
+      </div>
+    </div>
+    <div class="container">
+      <div class="news-img">
+        <img src="build/img/news_3.webp" alt="news1">
+        <h3>Conoces la Gestacion Solidaria , apuntate</h3>
+        <a href="#">Leer más...</a>
+      </div>
+    </div>
+  </section>
+
   <section class="blog">
     <div class="container">
       <div class="row row-article">
@@ -3136,121 +3030,6 @@
           <div class="blog-section-title">
             <h2>Articles</h2>
           </div>
-          <!-- <article class="blog-post">
-            <div class="blog-post-thumb">
-              <img src="build/img/1.webp" alt="blog-thum" />
-            </div>
-            <div class="blog-post-content">
-              <div class="blog-post-tag">
-              </div>
-              <div class="blog-post-title">
-                <a href="article-1.html">Une pratique aussi ancienne que l’histoire elle-même.</a>
-              </div>
-              <p>
-                La « GPA » est une méthode de procréation médicalement assistée, par laquelle une personne ou un couple
-                (appelés « parents d’intention ») qui rêve d’avoir un enfant fait appel à une femme (appelée «
-                gestatrice
-                ») qui accepte de porter son bébé, que ce soit volontairement ou en échange d’une rémunération définie
-                par
-                contrat.
-              </p>
-              <a href="article-1.html" class="blog-post-action">En savoir plus<i class="fa fa-angle-right"></i></a>
-            </div>
-          </article>
-          <article class="blog-post">
-            <div class="blog-post-thumb">
-              <img src="build/img/2.webp" alt="blog-thum" />
-            </div>
-            <div class="blog-post-content">
-              <div class="blog-post-tag">
-              </div>
-              <div class="blog-post-title">
-                <a href="article-2.html">Malgré toute la désinformation qui l’entoure, la GPA éthique est
-                  possible.</a>
-              </div>
-              <p>
-                Pour ceux d’entre nous qui pratiquent et croient en la GPA éthique, il est important d’aborder cette
-                controverse avec prudence et empathie. Nous devons commencer par réaliser que, parmi ceux qui s’opposent
-                à
-                toute forme de GPA, beaucoup sont en fait motivés par de véritables préoccupations de justice sociale et
-                de respect des droits de l’homme.
-              </p>
-              <a href="article-2.html" class="blog-post-action">En savoir plus<i class="fa fa-angle-right"></i></a>
-            </div>
-          </article>
-          <article class="blog-post">
-            <div class="blog-post-thumb">
-              <img src="build/img/3.webp" alt="blog-thum" />
-            </div>
-            <div class="blog-post-content">
-              <div class="blog-post-tag">
-              </div>
-              <div class="blog-post-title">
-                <a href="article-3.html">« Utiliser les femmes comme des caissiers automatiques » ?</a>
-              </div>
-              <p>
-                Mais même en l’absence de toute cette confusion, il existe des arguments plus « directs » contre la GPA,
-                qui s’appuient souvent sur une interprétation très spécifique de la morale judéo-chrétienne qui laisse
-                peu ou pas de place à la nuance.
-              </p>
-              <a href="article-3.html" class="blog-post-action">En savoir plus<i class="fa fa-angle-right"></i></a>
-            </div>
-          </article>
-          <article class="blog-post">
-            <div class="blog-post-thumb">
-              <img src="build/img/4.webp" alt="blog-thum" />
-            </div>
-            <div class="blog-post-content">
-              <div class="blog-post-tag">
-              </div>
-              <div class="blog-post-title">
-                <a href="article-4.html">La GPA dans les législations nationales</a>
-              </div>
-              <p>
-                Contrairement à d’autres questions relatives aux droits de l’homme, la GPA a peut-être la particularité
-                de provoquer une polarisation grave non seulement entre différents pays, régions culturelles et
-                orientations politiques, mais aussi au sein de ces pays.
-              </p>
-              <a href="article-4.html" class="blog-post-action">En savoir plus<i class="fa fa-angle-right"></i></a>
-            </div>
-          </article>
-          <article class="blog-post">
-            <div class="blog-post-thumb">
-              <img src="build/img/5.webp" alt="blog-thum" />
-            </div>
-            <div class="blog-post-content">
-              <div class="blog-post-tag">
-              </div>
-              <div class="blog-post-title">
-                <a href="article-5.html">La GPA en droit international</a>
-              </div>
-              <p>
-                Au niveau supranational également, les mentions explicites de la GPA sont pour la plupart inexistantes,
-                mais plusieurs mécanismes de droit international indirectement liés sont souvent cités pour justifier
-                des lois nationales restrictives.
-              </p>
-              <a href="article-5.html" class="blog-post-action">En savoir plus<i class="fa fa-angle-right"></i></a>
-            </div>
-          </article>
-          <article class="blog-post">
-            <div class="blog-post-thumb">
-              <img src="build/img/6.webp" alt="blog-thum" />
-            </div>
-            <div class="blog-post-content">
-              <div class="blog-post-tag">
-              </div>
-              <div class="blog-post-title">
-                <a href="article-6.html">Types d'adoption en France</a>
-              </div>
-              <p>
-                La gestation pour autrui (GPA) solidaire —ou GSS, de son sigle en espagnol— est une initiative
-                innovante, exclusivement facilitée par FertiHaus/BabyMedic. En soi, il s’agit d’un processus de GPA
-                comme tout autre, mais avec une éthique et une finalité différentes.
-              </p>
-              <a href="article-6.html" class="blog-post-action">En savoir plus<i class="fa fa-angle-right"></i></a>
-            </div>
-          </article> -->
-          <!-- <div class="row"> -->
           <div class="article-grid">
             <!-- <div class="column"> -->
             <article class="blog-post">
@@ -3407,6 +3186,47 @@
   <script>
     AOS.init();
   </script>
+  <script>
+    let options = {
+      numberPerPage: 30, //Cantidad de datos por pagina
+      goBar: true, //Barra donde puedes digitar el numero de la pagina al que quiere ir
+      pageCounter: true, //Contador de paginas, en cual estas, de cuantas paginas
+    };
+    let filterOptions = {
+      el: "#searchBox", //Caja de texto para filtrar, puede ser una clase o un ID
+    };
+    let options2 = {
+      numberPerPage: 30, //Cantidad de datos por pagina
+      goBar: true, //Barra donde puedes digitar el numero de la pagina al que quiere ir
+      pageCounter: true, //Contador de paginas, en cual estas, de cuantas paginas
+    };
+    let filterOptions2 = {
+      el: "#searchBox2", //Caja de texto para filtrar, puede ser una clase o un ID
+    };
+    let options3 = {
+      numberPerPage: 30, //Cantidad de datos por pagina
+      goBar: true, //Barra donde puedes digitar el numero de la pagina al que quiere ir
+      pageCounter: true, //Contador de paginas, en cual estas, de cuantas paginas
+    };
+    let filterOptions3 = {
+      el: "#searchBox3", //Caja de texto para filtrar, puede ser una clase o un ID
+    };
+
+    function init1() {
+      paginate.init(".myTable", options, filterOptions);
+      console.log("1");
+    }
+
+    function init2() {
+      paginate.init(".myTable2", options2, filterOptions2);
+      console.log("2");
+    }
+
+    function init3() {
+      paginate.init(".myTable3", options3, filterOptions3);
+      console.log("3");
+    }
+  </script>
   <!-- Pagination -->
   <script>
     function myFunction() {
@@ -3419,7 +3239,107 @@
 
       // Loop through all table rows, and hide those who don't match the search query
       for (i = 0; i < tr.length; i++) {
-        td = tr[i].getElementsByTagName("td")[1];
+        td = tr[i].getElementsByTagName("td")[0];
+        if (td) {
+          txtValue = td.textContent || td.innerText;
+          if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            tr[i].style.display = "";
+          } else {
+            if (i > 0) {
+              tr[i].style.display = "none";
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <script>
+    function myFunction2() {
+      // Declare variables
+      var input, filter, table, tr, td, i, txtValue;
+      input = document.getElementById("myInput2");
+      filter = input.value.toUpperCase();
+      table = document.getElementById("myTable2");
+      tr = table.getElementsByTagName("tr");
+
+      // Loop through all table rows, and hide those who don't match the search query
+      for (i = 0; i < tr.length; i++) {
+        td = tr[i].getElementsByTagName("td")[0];
+        if (td) {
+          txtValue = td.textContent || td.innerText;
+          if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            tr[i].style.display = "";
+          } else {
+            if (i > 0) {
+              tr[i].style.display = "none";
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <script>
+    function myFunction3() {
+      // Declare variables
+      var input, filter, table, tr, td, i, txtValue;
+      input = document.getElementById("myInput3");
+      filter = input.value.toUpperCase();
+      table = document.getElementById("myTable3");
+      tr = table.getElementsByTagName("tr");
+
+      // Loop through all table rows, and hide those who don't match the search query
+      for (i = 0; i < tr.length; i++) {
+        td = tr[i].getElementsByTagName("td")[0];
+        if (td) {
+          txtValue = td.textContent || td.innerText;
+          if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            tr[i].style.display = "";
+          } else {
+            if (i > 0) {
+              tr[i].style.display = "none";
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <script>
+    function myFunction4() {
+      // Declare variables
+      var input, filter, table, tr, td, i, txtValue;
+      input = document.getElementById("myInput4");
+      filter = input.value.toUpperCase();
+      table = document.getElementById("myTable4");
+      tr = table.getElementsByTagName("tr");
+
+      // Loop through all table rows, and hide those who don't match the search query
+      for (i = 0; i < tr.length; i++) {
+        td = tr[i].getElementsByTagName("td")[0];
+        if (td) {
+          txtValue = td.textContent || td.innerText;
+          if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            tr[i].style.display = "";
+          } else {
+            if (i > 0) {
+              tr[i].style.display = "none";
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <script>
+    function myFunction5() {
+      // Declare variables
+      var input, filter, table, tr, td, i, txtValue;
+      input = document.getElementById("myInput5");
+      filter = input.value.toUpperCase();
+      table = document.getElementById("myTable5");
+      tr = table.getElementsByTagName("tr");
+
+      // Loop through all table rows, and hide those who don't match the search query
+      for (i = 0; i < tr.length; i++) {
+        td = tr[i].getElementsByTagName("td")[0];
         if (td) {
           txtValue = td.textContent || td.innerText;
           if (txtValue.toUpperCase().indexOf(filter) > -1) {
