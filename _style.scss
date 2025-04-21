@@ -1,0 +1,706 @@
+@use "base/variables" as v;
+@use "base/mixins" as m;
+
+blockquote {
+    margin-top: 5vw;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Klein Condensed Trial', sans-serif;
+    // font-family: 'Klein Trial', sans-serif;
+    // font-family: 'Klein Text Trial', sans-serif;
+    // font-weight: bold;
+    font-size: calc(3rem + 0.5vw) !important;
+    color: v.$blue;
+    text-align: center;
+}
+
+p,
+li {
+    color: gray;
+    // font-family: 'Open Sauce One', sans-serif;
+    // font-family: 'Open Sauce Two', sans-serif;
+    // font-family: 'Open Sauce Sans', sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: calc(1.25rem + 0.25vw) !important;
+}
+
+th {
+    font-family: 'Open Sauce One', sans-serif;
+    font-size: calc(1rem + 0.25vw) !important;
+}
+
+td {
+    font-family: 'Klein Condensed Trial', sans-serif;
+    font-size: calc(1rem + 0.25vw) !important;
+    font-weight: normal !important;
+    color: v.$black;
+    text-transform: lowercase;
+
+    @include m.tablet {
+        font-size: calc(1.25rem + 0.25vw) !important;
+    }
+}
+
+nav {
+    ul {
+        display: flex;
+        padding: inherit;
+        margin: auto;
+
+        li {
+            padding: inherit 2.5vw;
+            text-align: center;
+        }
+    }
+}
+
+.faq {
+    margin-top: 10rem;
+}
+
+.red-rectangle {
+    padding: 0.5rem;
+    width: 100%;
+    height: 1rem;
+    background-color: red;
+    margin-bottom: 5rem;
+}
+
+.blog-single .single-blog blockquote::before {
+    background-color: red !important;
+}
+
+.blog-single-presentation {
+    margin-bottom: 0;
+}
+
+.featured {
+    margin-bottom: 10rem;
+    margin-top: 5rem;
+}
+
+.table-section {
+    background-color: v.$blueDark;
+    padding-top: calc(0rem + 3vw);
+    padding-bottom: calc(2rem + 3vw);
+}
+
+#table-scroll {
+    max-height: 500px;
+    overflow: scroll;
+    width: 95%;
+    max-width: 140rem;
+
+    flex-shrink: 0;
+    overflow: auto;
+    position: relative;
+    z-index: 1;
+    margin: auto;
+
+    &>* {
+        width: 83.33%;
+        margin: auto;
+    }
+
+    table {
+        margin-bottom: 5rem;
+        margin-left: 0;
+        width: 95%;
+        border-collapse: separate;
+        border-spacing: 0;
+        margin: 0;
+
+        tbody>tr>td:first-child {
+            background-color: v.$blueLight;
+            position: sticky;
+            left: 0;
+        }
+
+        // tbody>tr>td:nth-child(2) {
+        //     background-color: v.$blueLight;
+        //     position: sticky;
+        //     left: 0;
+        // }
+
+        tbody>tr:first-child {
+            // background-color: v.$blueLight;
+            position: sticky;
+            top: 0;
+            z-index: 3;
+        }
+
+        tr {
+            border: 5px solid transparent;
+
+            td {
+                padding: 0.5rem;
+                white-space: wrap;
+                border: 5px solid v.$blueDark;
+
+                @include m.phone {
+                    padding: 0.5rem 2rem;
+                    white-space: nowrap;
+                }
+
+                width: 1rem !important;
+            }
+        }
+
+    }
+
+    h3 {
+        text-align: center;
+        margin-bottom: 5rem;
+    }
+
+    // tr:nth-child(even) {
+    //     background-color: v.$blueLighter;
+    // }
+
+    // tr:nth-child(odd) {
+    //     background-color: v.$blueLight;
+    // }
+
+    @include m.tablet {
+        width: 83.33%;
+    }
+}
+
+#myTab {
+    max-width: 137rem;
+}
+
+.panel {
+    width: 95%;
+    max-width: 140rem;
+    margin: auto;
+    padding: 2rem;
+    padding-left: 0;
+    border: 5px solid v.$blueDark;
+    color: gray;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: calc(1.25rem + 0.25vw) !important;
+
+    label {
+        padding-right: 1rem;
+        padding-left: 1rem;
+        color: v.$black;
+        background-color: v.$blueLight;
+        height: 3.5rem;
+        display: flex;
+        align-items: center;
+    }
+
+    input {
+        border: 1px solid v.$grayLight;
+        background-color: v.$blueLighter;
+        padding-left: 1rem;
+        color: v.$black !important;
+        height: 3.5rem;
+    }
+
+    @include m.tablet {
+        width: 83.33%;
+    }
+}
+
+header {
+    display: flex;
+    justify-content: center;
+
+    img {
+        width: auto;
+        margin: auto;
+        height: calc(5rem + 5vw);
+        margin: 4rem 0;
+    }
+}
+
+.blog {
+    .row-article {
+
+        .blog-post {
+            display: block !important;
+
+            .blog-post-thumb {
+                width: 100%;
+                margin-bottom: 30px;
+            }
+
+            .blog-post-content {
+                p {
+                    display: block;
+                    font-size: calc(1.25rem + 0.25vw) !important;
+                }
+
+                width: 100%;
+                text-align: center;
+            }
+        }
+
+        .blog-post-title {
+            a {
+                font-family: 'Open Sauce One', sans-serif;
+                font-size: calc(1.5rem + 0.25vw) !important;
+            }
+        }
+
+        .blog-post-action {
+            color: v.$blue;
+            font-weight: bold;
+        }
+
+        @include m.tablet {
+            justify-content: center;
+        }
+    }
+}
+
+.column-news {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin: auto;
+
+    @include m.desktop {
+        width: 83.33%;
+        flex-direction: row;
+
+        &>* {
+            width: 49.5%;
+        }
+    }
+
+    .news {
+        h3 {
+            text-align: center;
+        }
+
+        background-color: v.$grayLight;
+        padding: 2rem;
+        border-radius: 1rem;
+        margin-top: 5rem;
+        margin-bottom: 2.5rem;
+
+        .new-item {
+            margin: 2rem;
+            display: flex;
+
+            .new-img {
+                width: 50%;
+                height: 25vw;
+
+                @include m.desktop {
+                    height: 10vw;
+                }
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+
+            .new-info {
+                width: 40%;
+                padding-left: 2rem;
+
+                a {
+                    transition: all 0.5s;
+
+                    &:hover {
+                        color: v.$blue;
+                        transition: all 0.5s;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.blog-single {
+
+    blockquote {
+        margin-bottom: 0 !important;
+    }
+
+    p {
+        text-align: justify;
+    }
+
+    .column-blog {
+        justify-content: center;
+
+        .single-blog {
+            padding: 0;
+
+            p {
+                span {
+                    font-weight: bold;
+                    color: v.$blueDark;
+                }
+            }
+        }
+    }
+
+    .two-columns {
+        display: flex;
+        flex-direction: column;
+
+        @include m.tablet {
+            flex-direction: row;
+            justify-content: space-between;
+
+            &>* {
+                width: 48%;
+            }
+        }
+    }
+}
+
+.faq-container {
+    width: 90%;
+
+    .accordion-item {
+        border: none;
+        margin-bottom: 2rem;
+    }
+
+    h3 {
+        text-align: center;
+        margin-bottom: 5rem;
+    }
+
+    .accordion-header button {
+        font-family: 'Open Sauce One', sans-serif;
+        font-size: calc(1.25rem + 0.25vw) !important;
+        font-weight: bold;
+    }
+
+    .accordion-body {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: calc(1.25rem + 0.25vw) !important;
+        color: gray;
+    }
+}
+
+.accordion-button:hover,
+.accordion-button:focus,
+.accordion-button:not(.collapsed) {
+    background-color: transparent !important;
+    color: inherit !important;
+    box-shadow: none !important;
+}
+
+.map {
+    display: flex;
+    border-top: 2px solid v.$grayLight;
+    border-bottom: 2px solid v.$grayLight;
+    margin-bottom: 5rem;
+
+    .col-1,
+    .col-2 {
+        width: 5vw;
+        height: 100%;
+        background-color: v.$grayLight;
+        position: relative;
+    }
+
+    .col-1 {
+        left: 0;
+    }
+
+    .col-2 {
+        right: 0;
+    }
+
+    #wdjsmapwrapper {
+        position: relative;
+        top: 0;
+    }
+}
+
+.article-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+
+    @include m.tablet {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 4rem;
+    }
+
+    @include m.desktop {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* Reset form colors */
+.form-control,
+.form-control:focus,
+.form-control:active {
+    background-color: white !important;
+    border-color: #ced4da !important;
+    /* Default Bootstrap border */
+    color: #212529 !important;
+    /* Default text color */
+    box-shadow: none !important;
+}
+
+/* Reset label colors */
+label {
+    color: #212529 !important;
+    /* Default text color */
+}
+
+/* Reset button styles */
+.btn {
+    background-color: #0d6efd !important;
+    /* Default Bootstrap primary button */
+    border-color: #0d6efd !important;
+    color: white !important;
+}
+
+.btn:hover {
+    background-color: #0b5ed7 !important;
+    border-color: #0a58ca !important;
+}
+
+.contact-section {
+    width: 85%;
+    margin: 10rem auto;
+
+    @include m.tablet {
+        width: 83.33%;
+    }
+
+    @include m.desktop {
+        width: 50%;
+    }
+
+    h2 {
+        margin-bottom: 5rem;
+    }
+
+    input,
+    textarea {
+        border: 1px solid v.$grayLight;
+        margin: 1rem;
+        background-color: v.$blueLighter;
+        padding-left: 1rem;
+        color: v.$black !important;
+        height: 5rem;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: calc(1.25rem + 0.25vw) !important;
+    }
+
+    textarea {
+        height: 20rem;
+    }
+
+    button {
+        margin-top: 5rem;
+        background-color: v.$blue;
+        border-radius: 5rem;
+        padding: 1rem 3rem;
+        color: v.$white;
+        border: none;
+        font-family: 'Open Sauce One', sans-serif;
+    }
+}
+
+.footer-contact {
+    height: 10rem;
+    content: "";
+}
+
+// .row {
+//     display: flex;
+//     flex-wrap: wrap;
+//     padding: 0 10px;
+// }
+
+// /* Create four equal columns that sits next to each other */
+// .column {
+//     flex: 33.33%;
+//     max-width: 33.33%;
+//     padding: 0 10px;
+// }
+
+// .column img {
+//     margin-top: 10px;
+//     vertical-align: middle;
+//     width: 100%;
+// }
+
+// /* Responsive layout - makes a two column-layout instead of four columns */
+// @media screen and (max-width: 800px) {
+//     .column {
+//         flex: 50%;
+//         max-width: 50%;
+//     }
+// }
+
+// /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+// @media screen and (max-width: 600px) {
+//     .column {
+//         flex: 100%;
+//         max-width: 100%;
+//     }
+// }
+
+table {
+    tr {
+        td {
+            background-color: v.$white !important;
+        }
+
+        td:nth-child(1) {
+            background-color: darken(v.$blueLight, 5%) !important;
+        }
+
+        &:first-child {
+            td {
+                background-color: darken(v.$blueLight, 5%) !important;
+            }
+        }
+    }
+}
+
+// Style for new elements in table (separation by countries)
+
+.panel {
+    padding-right: 0;
+
+    .nav-tabs {
+        border: none;
+        display: flex;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+
+        li {
+            width: 100%;
+            @include m.tablet {
+                flex: 1;
+            }
+            box-sizing: border-box;
+            text-align: left;
+            display: flex;
+            align-items: flex-start;
+            justify-content: flex-start;
+            height: 7rem;
+
+            &:nth-child(odd) {
+                background-image: linear-gradient(to right, v.$blueDark , v.$white);
+                color: v.$white;
+
+                button {
+                    color: v.$white;
+                }
+            }
+
+            &:nth-child(even) {
+                background-color: v.$white;
+
+                button {
+                    color: rgb(102, 102, 102);
+                }
+            }
+
+            button {
+                width: 100%;
+                height: 100%;
+                text-align: left;
+                padding-left: 4rem;
+                vertical-align: top;
+                padding-bottom: 2rem;
+                font-family: 'Klein Condensed Trial', sans-serif;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+
+.nav-tabs .nav-link.active {
+    color: inherit;
+    background-color: inherit;
+}
+
+.tab-pane {
+    display: none;
+    .panel {
+        padding-top: 0;
+        padding-bottom: 2rem;
+    }
+}
+
+.show {
+    display: block !important;
+}
+
+.nav-tabs .nav-link {
+    border: none;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+}
+
+.news {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+    @include m.tablet {
+        flex-direction: row;
+    }
+    .container {
+        margin: 1vw;
+        .news-img {
+
+            width: 100%;
+            img {
+                width: 100%
+            }
+            h3 {
+                position: relative;
+                top: -10rem;
+                color: v.$white;
+                margin: auto;
+                height: 10rem;
+                background-color: rgba(0, 0, 0, 0.5);
+                width: 100%;
+                // left: -0.6vw;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: calc(1.75rem + 0.25vw) !important;	
+                @include m.tablet {
+                    top: -10rem;
+                    font-size: calc(2rem + 0.25vw) !important;
+                    margin: auto;
+                    padding: auto 1rem;
+                }
+            }
+        }
+        a {
+            position: relative;
+            display: inline-block;
+            top: -7rem;
+            text-align: right;
+            width: 100%;
+            font-weight: bold;
+            font-family: 'Klein Condensed Trial', sans-serif;
+            font-size: calc(1.5rem + 0.25vw) !important;
+            @include m.tablet {
+                text-align: right;
+                // top: calc(-5rem + 0.5vw);
+                top: -8rem;
+            }
+        }
+    }
+}
